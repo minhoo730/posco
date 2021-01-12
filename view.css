@@ -49,6 +49,7 @@
 
 			/* 리크레이머 영역 */
 			.reclaimer_area > div{position:absolute;}
+			.reclaimer_area > div p{letter-spacing:-0.5px;}
 			.rc511{left:577px; bottom:425px; width:55px; height:51px; background:url('img/reclaimer_on.gif')no-repeat;}
 			.rc511 .rc_on{position:absolute; bottom:-26px; left:-10px;}
 			.rc511 .rc_name{position:relative; left:7px; top:-2px; font-weight:bold; font-size:12px; transform:rotate(-40deg)}

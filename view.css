@@ -11,7 +11,7 @@ p.bf01 {}
 
 			/* 연료 통로 */
 			/* 니켈 라인 동작 영역 */
-			.nickel_bar_left1{left:112px; top:381px; width:218px; height:5px; background:url('img/nickel_bar1.gif')repeat-x;}
+			.nickel_bar_left1{left:112px; top:381px; width:218px; height:5px; background:url('img/nickel_bar1_1.gif')repeat-x;}
 			.nickel_bar_bot1{left:112px; top:381px; width:5px; height:404px; background:url('img/nickel_bar_bottom.gif')repeat-y;}
 			.nickel_bar_right1{left:112px; bottom:295px; width:141px; height:5px; background:url('img/nickel_bar_right.gif')repeat-x;}
 			.nickel_bar_bot2{left:248px; bottom:224px; width:5px; height:76px; background:url('img/nickel_bar_bottom.gif')repeat-y;}

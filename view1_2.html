@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="view.css">
+		<script src="jquery-3.5.1.min.js"/></script>
 	</head>
 	<body>
 		<div class="main_bg">
@@ -16,11 +17,22 @@
 			</div>
 			-->
 			<div class="cogwheel">
+				<p class="notice_button"><a href="#" onclick="toggleBtn()">알림</a></p>
+				<!--<p class="notice_button on"><a href="#">알림</a></p>-->
 				<div class="notice_area">
 					<div class="notice">
-						<h2><strong class="notice_title">알림</strong><span class="data">21.01.12</span>포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.<a href="#"><img src="img/close.gif"/></a></h2>
+						<h2><strong class="notice_title">알림</strong><span class="data">21.01.12</span>포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.<a href="#" class="close"><img src="img/close.gif"/></a></h2>
 					</div>
 				</div>
+				<script type="text/javascript">
+					function toggleBtn(){
+						$('.notice_button, .notice_area').toggleClass('on');
+					};
+
+					$(".close").click(function(){
+						$(".notice_button, .notice_area").removeClass('on');
+					});
+				</script>
 				<div class="tunnel_area">
 					<div class="tunnel_on">
 						<p class="ton_802"><img src="img/passage1_on.gif"></p>
@@ -96,6 +108,7 @@
 					<p class="slog_bar_left1"></p>
 				</div>
 				<div class="csu_area">
+					<p class="csu_img"><img src="img/csu_ico.gif"></p>
 					<p class="csu_on"><span class="csu1">CSU-1</span></p>
 					<p class="csu_off"><span class="csu2">CSU-2</span></p>
 				</div>
@@ -132,20 +145,16 @@
 				</div>
 				<div class="sl_area">
 					<div class="sl1_1">
-						<p class="sl_off"><img src="img/sl2_off.gif"/></p>
-						<p class="sl_name"><span class="sl">SL-1</span></p>
-					</div>
-					<div class="sl1_2">
-						<p class="sl_on"><img src="img/sl_on.gif"/></p>
-						<p class="sl_name"><span class="sl">SL-1</span></p>
+						<p class="sl_img"><img src="img/sl_ico.gif"></p>
+						<p class="sl_name">SL-1</p>
+						<p class="sl_on sl_ico"><span class="sl">SL_on</span></p>
+						<p class="sl_off sl_ico"><span class="sl">SL_off</span></p>
 					</div>
 					<div class="sl2_1">
-						<p class="sl_off"><img src="img/sl_off.gif"/></p>
-						<p class="sl_name"><span class="sl">SL-2</span></p>
-					</div>
-					<div class="sl2_2">
-						<p class="sl_on"><img src="img/sl2_on.gif"/></p>
-						<p class="sl_name"><span class="sl">SL-2</span></p>
+						<p class="sl_name">SL-2</p>
+						<p class="sl_img"><img src="img/sl_ico.gif"></p>
+						<p class="sl_on sl_ico"><span class="sl">SL-2</span></p>
+						<p class="sl_off sl_ico"><span class="sl">SL-2</span></p>
 					</div>
 				</div>
 				<!--
@@ -209,10 +218,10 @@
 						<p class="c608">C608</p>
 					</div>
 					<div class="pump_tag">
-						<p class="pump1">PUMP1</p>
-						<p class="pump2">PUMP2</p>
-						<p class="pump3">PUMP3</p>
-						<p class="pump4">PUMP4</p>
+						<p class="pump1"><img src="img/pump_on.gif"/>PUMP1</p>
+						<p class="pump2"><img src="img/pump_off.gif"/>PUMP2</p>
+						<p class="pump3"><img src="img/pump_on.gif"/>PUMP3</p>
+						<p class="pump4"><img src="img/pump_off.gif"/>PUMP4</p>
 					</div>
 				</div>
 			</div>

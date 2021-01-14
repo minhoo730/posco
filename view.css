@@ -55,13 +55,13 @@ p.bf01 {}
 			.rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;}
 			.rc511 .rc_name{position:relative; left:7px; top:10px; font-weight:bold; font-size:12px; transform:rotate(-40deg)}
 			.rc512{left:894px;bottom: 471px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
-			.rc512 .rc_off{position:relative; left:35px; top:7px; font-weight:bold; font-size:12px;}
+			.rc512 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px;}
 
 			.rc513{left:543px;bottom: 338px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
 			.rc513 .rc_off{position:relative; left:35px; top:7px; font-weight:bold; font-size:12px;}
 
 			.rc514{left:894px;bottom: 338px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
-			.rc514 .rc_off{position:relative; left:35px; top:7px; font-weight:bold; font-size:12px;}
+			.rc514 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px;}
 
 			.rc611{right:191px;bottom: 472px;width:55px;height:51px;background:url('img/reclaimer_on.gif')no-repeat;}
 			.rc611 .rc_on{position:absolute; bottom:-10px; left:-10px;}

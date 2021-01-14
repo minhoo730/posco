@@ -181,9 +181,16 @@ p.bf01 {}
 			.a504{right:662px; bottom:356px;}
 			.a514{right:568px; bottom:356px;}
 			.a605{right:313px;bottom: 434px;}
-			.a602{right:313px;bottom: 367px;}
+			/* .a602{right:313px;bottom: 367px;} */
 			.a810{right:393px;bottom: 286px;}
 
+		/* 점검, 오류 태그 */
+			.repair_t{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
+			.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
+			.error_t{}
+			.a602{right:740px; top: 166px;}
+			.a603{right:393px; top: 297px;}
+			.a604{right:393px; top: 451px;}
 
 
 		/* 집진기 태그 */

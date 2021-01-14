@@ -76,6 +76,8 @@ p.bf01 {}
 		    .st502{left:740px;bottom: 402px;z-index:1;}
 			.st503{left:762px;bottom: 269px;width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
 			.st503 .st_off{position:relative; left:26px; top:4px; font-weight:bold; font-size:12px;}
+			.st601{right:193px; bottom:432px; transform:rotate(180deg); width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
+			.st601 .st_off{position:relative; left:-20px; top:5px; font-weight:bold; font-size:12px; transform:rotate(180deg)}
 
 			/* SL 영역 */
 			.sl_area > div{position:absolute;}
@@ -157,7 +159,6 @@ p.bf01 {}
 			.a502{right:741px;top: 288px;}
 			.a503{right:662px;top: 375px;}
 			.a506{left:435px;bottom: 408px;}
-
 			.c601{right:313px;bottom: 501px;}
 			.c603{right:488px;bottom: 545px;}
 			.c604{right:612px;bottom: 591px;}
@@ -171,6 +172,8 @@ p.bf01 {}
 			.a121-1{left:825px; top:113px;}
 			.a601{left:907px; top:113px;}
 			.a511{right:820px; top:113px;}
+			.a512{right:740px; top:224px;}
+			/* .a513{right:56px; top:375px;} */
 
 
 

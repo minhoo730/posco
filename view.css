@@ -6,7 +6,7 @@
 
 p.bf01 {}
 			.view_link{position:absolute; right:580px; z-index:333; top:20px;}
-			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px; cursor:pointer;}
+			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px;}
 			.view_link a.on{color:#fff; background:#005386;}
 
 			/* 연료 통로 */
@@ -191,7 +191,7 @@ p.bf01 {}
 
 		/* 메시지 버튼 */
 		.notice_button{position:absolute;right:85px;top: 39px;}
-		.notice_button a{color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px;}
+		.notice_button a{color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px; cursor:pointer;}
 		.notice_button.on{right:85px; z-index:2;}
 		.notice_button.on a{color:#fff; background:#005b95;}
 

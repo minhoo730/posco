@@ -11,7 +11,7 @@ p.bf01 {}
 
 			/* 연료 통로 */
 			/* 니켈 라인 동작 영역 */
-			.nickel_bar_left1{left:112px;top: 360px;width:218px;height:5px;background:url('img/nickel_bar1_1.gif')repeat-x;}
+			.nickel_bar_left1{left:112px;top: 360px;width:218px;height:5px;background:url('img/nickel_bar_left.gif')repeat-x;}
 			.nickel_bar_bot1{left:112px;top: 360px;width:5px;height:404px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
 			.nickel_bar_right1{left:112px;bottom: 316px;width:141px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
 			.nickel_bar_bot2{left:248px;bottom: 245px;width:5px;height:76px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
@@ -165,6 +165,14 @@ p.bf01 {}
 			.c606{left:828px;bottom: 591px;}
 			.c607{left:743px;top: 440px;}
 			.c608{left: 480px;top: 409px;}
+
+		/* 미가동 태그 */
+			.offline_tag p{background:#fff; color:#bbb; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; border:1px solid #bbb;}
+			.a121-1{left:825px; top:113px;}
+			.a601{left:907px; top:113px;}
+			.a511{right:820px; top:113px;}
+
+
 
 		/* 집진기 태그 */
 		.collector_tag p{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}

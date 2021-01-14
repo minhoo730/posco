@@ -6,7 +6,7 @@
 
 p.bf01 {}
 			.view_link{position:absolute; right:580px; z-index:333; top:20px;}
-			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px;}
+			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px; cursor:pointer;}
 			.view_link a.on{color:#fff; background:#005386;}
 
 			/* 연료 통로 */

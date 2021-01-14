@@ -16,10 +16,10 @@ p.bf01 {}
 			.nickel_bar_right1{left:112px;bottom: 316px;width:141px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
 			.nickel_bar_bot2{left:248px;bottom: 245px;width:5px;height:76px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
 			.nickel_bar_right2{left:248px;bottom: 245px;width:1556px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
-			.nickel_bar_top1{right:257px;bottom: 245px;width:5px;height:40px;background:url('img/nickel_bar_top.gif')repeat-y;}
-			.nickel_bar_bot3{right:257px;bottom: 210px;width:5px;height:35px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
-			.nickel_bar_right3{right:116px;bottom: 280px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
-			.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
+			.nickel_bar_top1{right: 129px;bottom: 245px;width:5px;height:40px;background:url('img/nickel_bar_top.gif')repeat-y;}
+			.nickel_bar_bot3{right: 129px;bottom: 210px;width:5px;height:35px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
+			.nickel_bar_right3{right:116px;bottom: 280px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
+			.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 
 			/* 슬라그 라인 동작 영역 */
 			.slog_bar_right1{left:416px;bottom: 476px;width:754px;height:5px;background:url('img/slog_bar_right.gif')repeat-x;}
@@ -138,9 +138,9 @@ p.bf01 {}
 			.a807{left:550px;bottom: 238px;}
 			.a808{right:735px;bottom: 238px;}
 			.a809{right:315px;bottom: 238px;}
-			.m202{right: 116px;bottom: 273px;}
-			.m202r{right: 116px;bottom: 239px;}
-			.m202b{right: 116px;bottom: 203px;}
+			.m202{right: 110px;bottom: 273px;}
+			.m202r{right: 110px;bottom: 239px;}
+			.m202b{right: 110px;bottom: 203px;}
 
 			/* 슬라그 태그 */
 			.slog_tag p{background:#ffe65a; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center;}

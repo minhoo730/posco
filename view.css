@@ -84,12 +84,12 @@ p.bf01 {}
 
 			.sl1_1{left:569px;top: 261px;width:166px;height:114px;}
 			.sl1_1 .sl_img{z-index:2;}
-			.sl1_1 .sl_on{background:url('img/sl_on.gif')no-repeat; right:15px; top:24px; z-index:1;}
+			.sl1_1 .sl_on{background:url('img/sl_on.gif')no-repeat;right: 30px;top:24px;z-index:1;}
 			.sl1_1 .sl_off{background:url('img/sl_off.gif')no-repeat; right:40px; top:24px; z-index:1;}
 			.sl2_1{left:377px;top: 261px;width:166px;height:114px;}
 			.sl2_1 .sl_img{z-index:2;}
 			.sl2_1 .sl_on{background:url('img/sl_on.gif')no-repeat; right:15px; top:24px; z-index:1;}
-			.sl2_1 .sl_off{background:url('img/sl_off.gif')no-repeat; right:40px; top:24px; z-index:1;}
+			.sl2_1 .sl_off{background:url('img/sl_off.gif')no-repeat;right: 30px;top:24px;z-index:1;}
 
 
 			/* 집진기 */

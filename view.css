@@ -71,9 +71,10 @@ p.bf01 {}
 
 			/* 스태커 영역 */
 			.stack_area > div{position:absolute;}
-			.st501{left:762px;bottom: 536px;width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
+			.st501{left:762px; bottom: 536px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
 			.st501 .st_off{position:relative; left:26px; top:4px; font-weight:bold; font-size:12px;}
-		    .st502{left:740px;bottom: 402px;z-index:1;}
+		    .st502{left:740px; bottom: 402px; width:88px; height:67px;  background:url('img/stacker_on.gif')no-repeat;}
+		    .st502 .st_on{position: relative;left: 32px;top: 3px;font-weight: bold;font-size: 12px;transform: rotate(-45deg);}
 			.st503{left:762px;bottom: 269px;width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
 			.st503 .st_off{position:relative; left:26px; top:4px; font-weight:bold; font-size:12px;}
 			.st601{right:193px; bottom:432px; transform:rotate(180deg); width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}

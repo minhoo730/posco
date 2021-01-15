@@ -249,25 +249,15 @@ p.bf01 {}
 
 	/* 풍향 미세먼지 정보 */
 .wind_area{position:absolute; top:170px; right:110px;}
-.wind_area h3{font-size:16px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px;}
-.wind_info{width:228px; height:110px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
+.wind_area h3{font-size:14px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px;}
+.wind_info{width:200px; height:auto; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
 .wind_info:after{display:block; content:''; clear:both;}
-.wind_info p{float:left; width:75px; border-right:1px solid #e9e9e9; position:static; font-size:14px; font-weight:bold; text-align:center; color:#333; margin: 15px 0;
-    padding: 46px 0 0 0;}
-.wind_info p.wind_ico{background:url('img/wind_ico.png')no-repeat center 10px;}
+.wind_info p{float:left; width:65px; border-right:1px solid #e9e9e9; position:static; font-size:12px; font-weight:bold; text-align:center; color:#333; margin: 10px 0; padding:35px 0 0 0;}
+.wind_info p.wind_ico{background:url('img/wind_ico.png')no-repeat center 7px; background-size:30%;}
 .wind_info p.wind_speed{background:url('img/wind_speed.png')no-repeat center 10px;}
-.wind_info p.pm_ico{background:url('img/dust_ico.png')no-repeat center 10px;}
+.wind_info p.pm_ico{background:url('img/dust_ico.png')no-repeat center 9px; background-size:35%;}
 .wind_info p:last-child{border:none;}
 .wind_info p .w_value{display:block; font-size:12px; color:#005386;}
 .wind_info p .w_value.green{color:#0bc300;}
 .wind_info h3{font-size:16px; color:#333;}
 
-/* 버전2 */
-.wind_area.wind2{top:330px; right:110px;}
-.wind_area.wind2 h3{font-size:14px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px;}
-.wind2 .wind_info{width:200px; height:auto; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
-.wind2 .wind_info p{float:left; width:65px; border-right:1px solid #e9e9e9; position:static; font-size:12px; font-weight:bold; text-align:center; color:#333; margin: 10px 0; padding:35px 0 0 0;}
-.wind2 .wind_info p:last-child{border:none;}
-.wind2 .wind_info p.wind_ico{background:url('img/wind_ico.png')no-repeat center 7px; background-size:30%;}
-.wind2 .wind_info p.wind_speed{background:url('img/wind_speed.png')no-repeat center 9px; background-size:35%;}
-.wind2 .wind_info p.pm_ico{background:url('img/dust_ico.png')no-repeat center 9px; background-size:35%;}

@@ -270,4 +270,4 @@ p.bf01 {}
 .wind2 .wind_info p:last-child{border:none;}
 .wind2 .wind_info p.wind_ico{background:url('img/wind_ico.png')no-repeat center 7px; background-size:30%;}
 .wind2 .wind_info p.wind_speed{background:url('img/wind_speed.png')no-repeat center 9px; background-size:35%;}
-.wind2 .wind_info p.pm_ico{background:url('img/dust_ico.png')no-repeat center 8px; background-size:35%;}
+.wind2 .wind_info p.pm_ico{background:url('img/dust_ico.png')no-repeat center 9px; background-size:35%;}

@@ -1,13 +1,36 @@
-			body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-0.7px;}
+			body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px;}
 
 			.main_bg{background: url('img/posco_1_2.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
-			.cogwheel{position:relative; width:100%; height:100%;}
-			.cogwheel p{position:absolute;}
-
-p.bf01 {}
+			.monitoring_area{position:relative; width:100%; height:100%;}
+			.monitoring_area p{position:absolute;}
 			.view_link{position:absolute; right:580px; z-index:333; top:20px;}
 			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px;}
 			.view_link a.on{color:#fff; background:#005386;}
+
+			/* 선석정보_상단*/
+			.top_list{position:absolute; left:112px; top:85px; z-index:3;}
+			.top_list:after{display:block; content:''; clear:both;}
+			.shipping_in{padding:10px; background:#e9e9e9; float:left;}
+			.in_list{width:193px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
+			.ship_in{float: left; margin: 10px 0; width: 193px;}
+			.ship_title{padding:0 15px;}
+			.ship_title h4{display:inline-block; color:#005386; font-size:16px;}
+			.ship_title h4 .ship_name{color:#333; font-weight:bold; padding-left:25px;}
+			.ship_title p{display:inline-block;}
+
+			.ship_info{padding:0 15px; margin-top:20px;}
+			.ship_info p{font-size:14px; padding-bottom:5px; color:#797979;}
+			.ship_info p b{display:inline-block; width:55px; padding-right:10px; color:#333;}
+			.shipping_out{padding:10px; background:#e9e9e9; float:left; margin-left:25px;}
+			.shipping_out:after{display:block; content:''; clear:both;}
+			.out_list{width:420px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
+			.out_list:after{display:block; content:''; clear:both;}
+			.out_list > div{float:left; margin:10px 0; width:209px; border-right:1px solid #e9e9e9;}
+			.out_list .out2{border-right:none;}
+			.out_list .ship_title h4 .ship_name{padding-left:16px;}
+			.out_list .ship_info p b{display:inline-block; width:55px; padding-right:35px}
+
+
 
 			/* 연료 통로 */
 			/* 니켈 라인 동작 영역 */

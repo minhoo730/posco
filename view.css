@@ -14,13 +14,13 @@
 			.in_list{width:193px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
 			.ship_in{float: left; margin: 10px 0; width: 193px;}
 			.ship_title{padding:0 15px;}
-			.ship_title h4{display:inline-block; color:#005386; font-size:16px;}
+			.ship_title h4{display:inline-block; color:#005386; font-size:16px; letter-spacing:-1.5px;}
 			.ship_title h4 .ship_name{color:#333; font-weight:bold; padding-left:25px;}
-			.ship_title p{display:inline-block;}
+			.ship_title p{display:inline-block; letter-spacing:-1.5px;}
 
 			.ship_info{padding:0 15px; margin-top:20px;}
-			.ship_info p{font-size:14px; padding-bottom:5px; color:#797979;}
-			.ship_info p b{display:inline-block; width:55px; padding-right:10px; color:#333;}
+			.ship_info p{font-size:14px; padding-bottom:5px; color:#797979; letter-spacing:-1.3px;}
+			.ship_info p b{display:inline-block; width:55px; padding-right:10px; color:#333; letter-spacing:-1.5px;}
 			.shipping_out{padding:10px; background:#e9e9e9; float:left; margin-left:25px;}
 			.shipping_out:after{display:block; content:''; clear:both;}
 			.out_list{width:420px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }

@@ -1,4 +1,4 @@
-			body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px;}
+			body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px;}
 
 			.main_bg{background: url('img/posco_1_2.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
 			.monitoring_area{position:relative; width:100%; height:100%;}
@@ -7,8 +7,9 @@
 			.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px;}
 			.view_link a.on{color:#fff; background:#005386;}
 
+
 			/* 선석정보_상단*/
-			.top_list{position:absolute; left:112px; top:85px; z-index:3;}
+			.top_list{position:absolute; left:112px; top:85px; z-index:2;}
 			.top_list:after{display:block; content:''; clear:both;}
 			.shipping_in{padding:10px; background:#e9e9e9; float:left;}
 			.in_list{width:193px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
@@ -65,11 +66,28 @@
 			.coal_bar_top2_4{left: 591px;top: 360px;width:5px;height:60px;background:url('img/coal_bar_top.gif')repeat-y;}
 
 			/* CSU 영역 */
-			.csu_img{left: 175px;top: 262px;}
-			.csu_on{left: 234px;top: 284px;width:60px;height:50px;background:url('img/csu_on.gif')no-repeat;}
-			.csu_on span{position:relative; left: 3px; top: -19px; font-weight:bold; font-size:12px;}
-			.csu_off{left: 205px;top: 284px;width:60px;height:50px;background:url('img/csu_off.gif')no-repeat;}
-			.csu_off span{position:relative; left: -12px; top: -19px; font-weight:bold; font-size:12px;}
+
+			.csu_area{left: 175px;top: 262px; width:131px; height:115px; position:absolute; cursor:pointer;}
+			.csu_on{left: 62px;top: 22px; width:35px; height:50px; background:url('img/csu_on.gif')no-repeat;}
+			.csu_on span{position:relative; left: 2px; top: -16px; font-weight:bold; font-size:12px;}
+			.csu_off{left: 30px; top: 22px; width:35px; height:50px; background:url('img/csu_off.gif')no-repeat;}
+			.csu_off span{position:relative; left: -12px; top: -16px; font-weight:bold; font-size:12px;}
+
+
+			/* 팝업 */
+			.csu_popup{width:500px; position:absolute; left:50%; margin-left:-250px; top:50%; margin-top:-230px; background:#fff url('img/popup_top.png')no-repeat -18px -1px; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
+			.csu_popup h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px;}
+			.csu_table{padding:30px;}
+			.csu_table > div > h4{font-size:18px; color:#333;}
+			.csu_table table tr{display:block; border-bottom:1px solid #d9d9d9; padding:15px 0;}
+			.csu_table table tr td{font-size:16px;}
+			.csu_table table tr td.data_name{font-weight:bold; color:#005386;}
+			.csu_table table tr td.data_number{padding-left:20px; }
+			.csu_table table tr td.gap{width:45px;}
+			.csu_table .csu2{margin-top:30px;}
+			.csu_table .csu2 table{width:100%;}
+			.csu_popup .popup_close{width:200px; height:40px; margin:30px auto; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
+
 
 
 			/* 리크레이머 영역 */
@@ -236,7 +254,7 @@
 		.bf02{left: 82px;bottom: 307px;background-position:6px 18px !important;}
 		.bf03{left: 275px;bottom: 243px;background-position:0px 0px !important;padding-left: 15px;padding-top:3px;}
 		.bf04{left:873px;bottom: 187px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
-		.bf05{right:376px;bottom: 187px;background-position:0px 0px !important;padding-left:15px;padding-top:3px;}
+		.bf05{right:376px;bottom: 187px;background-position:0px 0px !important;padding-left:15px;padding-top:3px; z-index:2;}
 		.bf06{right:270px;bottom: 187px;padding-left:15px;padding-top:3px;}
 		.bf07{right:420px;bottom: 401px;padding-left:15px;padding-top:3px;}
 		.a604dc{right:440px;bottom: 449px;padding-left:15px;padding-top:3px;}
@@ -254,7 +272,7 @@
 		.pump4{right:359px;bottom: 310px;}
 
 		/* 메시지 버튼 */
-		.notice_button{position:absolute;right:85px;top: 39px;}
+		.notice_button{position:absolute;right:85px;top: 39px; z-index:2;}
 		.notice_button a{color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px; cursor:pointer;}
 		.notice_button.on{right:85px; z-index:2;}
 		.notice_button.on a{color:#fff; background:#005b95;}

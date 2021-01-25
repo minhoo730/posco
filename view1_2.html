@@ -155,6 +155,55 @@
 						<p class="csu_on"><span class="csu1">CSU-1</span></p>
 						<p class="csu_off"><span class="csu2">CSU-2</span></p>
 					</div>
+					<div class="csu_popup">
+						<h2>CSU 상세정보</h2>
+						<div class="csu_table">
+							<div class="csu1">
+								<h4>CSU-1</h4>
+								<table>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+								</table>
+							</div>
+							<div class="csu2">
+								<h4>CSU-2</h4>
+								<table>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<button class="popup_close">닫기</button>
+					</div>
+					<script>
+						$(".csu_area").click(function(){
+							$(".csu_popup").css('display','block');
+						});
+						$(".csu_popup .popup_close").click(function(){
+							$(".csu_popup").css('display','none');
+						});
+					</script>
+
 					<div class="reclaimer_area">
 						<div class="rc511">
 							<p class="rc_on"><span class="rc">R/C 511</span></p>

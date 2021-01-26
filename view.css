@@ -56,6 +56,12 @@
 			.nickel_bar_right3{right:116px;bottom: 280px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 			.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 
+			/*Error Line */
+			.error_line{position:absolute; width:5px; height:298px; background:#ff2323; text-indent:-9999px; right:408px; top:171px; border-radius:25px;}
+
+			/* repair Line */
+			.repair_line{position:absolute; width:366px; height:5px; background:#ff8a00; text-indent:-9999px; right:407px; top:172px; border-radius:25px;}
+
 			/* 슬라그 라인 동작 영역 */
 			.slog_bar_right1{left:416px;bottom: 476px;width:754px;height:5px;background:url('img/slog_bar_right.gif')repeat-x;}
 			.slog_bar_top1{right:750px;bottom: 476px;width:5px;height:244px;background:url('img/slog_bar_top.gif')repeat-y;}

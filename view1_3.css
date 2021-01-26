@@ -298,7 +298,7 @@
 		.notice_area .notice h2 .data{display:inline-block; margin:0 20px; margin-right:10px; font-weight:bold;}
 
 		/* 메시지 팝업 */
-			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px; display:block;}
+			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
 			.popup_area h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
 			.notice_table{padding:30px;}
 			.notice_table > div > h4{font-size:18px; color:#333;}

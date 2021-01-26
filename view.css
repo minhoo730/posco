@@ -76,7 +76,7 @@
 
 			/* 팝업 */
 			.csu_popup{width:500px; position:absolute; left:50%; margin-left:-250px; top:50%; margin-top:-230px; background:#fff url('img/popup_top.png')no-repeat -18px -1px; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
-			.csu_popup h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px;}
+			.csu_popup h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
 			.csu_table{padding:30px;}
 			.csu_table > div > h4{font-size:18px; color:#333;}
 			.csu_table table tr{display:block; border-bottom:1px solid #d9d9d9; padding:15px 0;}

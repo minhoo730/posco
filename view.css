@@ -79,13 +79,15 @@
 			.csu_popup h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
 			.csu_table{padding:30px;}
 			.csu_table > div > h4{font-size:18px; color:#333;}
+			.csu_table > div > h4 .state{color:#0bc300;}
+			.csu_table > div > h4 .error{color:#ff2323;}
 			.csu_table table tr{display:block; border-bottom:1px solid #d9d9d9; padding:15px 0;}
 			.csu_table table tr td{font-size:16px; letter-spacing:-1.7px;}
-			.csu_table table tr td.data_name{font-weight:bold; color:#005386;}
+			.csu_table table tr td.data_name{font-weight:bold; color:#005386; width:80px;}
 			.csu_table table tr td.data_number{padding-left:20px; }
 			.csu_table table tr td.gap{width:45px;}
 			.csu_table .csu2{margin-top:30px;}
-			.csu_table .csu2 table{width:100%;}
+			.csu_table > div table{width:100%;}
 			.csu_popup .popup_close{width:200px; height:40px; margin:30px auto; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
 
 

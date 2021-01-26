@@ -17,20 +17,68 @@
 			</div>
 			-->
 			<div class="cogwheel">
-				<p class="notice_button"><a onclick="toggleBtn()">알림</a></p>
-				<!--<p class="notice_button on"><a href="#">알림</a></p>-->
+				<div class="top_button">
+					<button class="notice_button">알림</button>
+					<button class="repair_button">정비</button>
+				</div>
 				<div class="notice_area">
 					<div class="notice">
-						<h2><strong class="notice_title">알림</strong><span class="data">21.01.12</span>포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.<a href="#" class="close"><img src="img/close.gif"/></a></h2>
+						<h2><strong class="notice_title">알림</strong><span class="data">21.01.12</span>포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</h2>
 					</div>
 				</div>
+
+					<div class="popup_area notice_popup">
+						<h2>알림 상세정보</h2>
+						<div class="notice_table">
+							<div class="notice_list">
+								<h4>알림 글 리스트</h4>
+								<table>
+									<tr>
+										<td class="data_name">21.01.26</td><td class="data_number">포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</td>
+									</tr>
+									<tr>
+										<td class="data_name">21.01.26</td><td class="data_number">포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</td>
+									</tr>
+									<tr>
+										<td class="data_name">21.01.26</td><td class="data_number">포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</td>
+									</tr>
+									<tr>
+										<td class="data_name">21.01.26</td><td class="data_number">포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</td>
+									</tr>
+									<tr>
+										<td class="data_name">21.01.26</td><td class="data_number">포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다. 포스코 터미날 알림글영역입니다.</td>
+									</tr>
+								</table>
+							</div>
+							<div class="notice_write">
+								<h4>알림글 쓰기</h4>
+								<table>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+									<tr>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+										<td class="gap"></td>
+										<td class="gap"></td>
+										<td class="data_name">데이터 이름</td><td class="data_number">데이터 값</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<button class="popup_close">닫기</button>
+					</div>
+
+
 				<script type="text/javascript">
-					function toggleBtn(){
-						$('.notice_button, .notice_area').toggleClass('on');
-					};
-					$(".close").click(function(){
-						$(".notice_button, .notice_area").removeClass('on');
-					});
+						$(".top_button .notice_button").click(function(){
+							$(".popup_area").css('display','block');
+						});
+						$(".notice_popup .popup_close").click(function(){
+							$(".popup_area").css('display','none');
+						});
 				</script>
 				<div class="top_list">
 					<div class="shipping_in">
@@ -75,6 +123,73 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="bottom_list">
+					<div class="b_ship1">
+						<div class="ship_title">
+							<h4 class="ship_num">1선석<span class="ship_name">HANJIN GREEN</span></h4>
+						</div>
+						<div class="ship_info">
+							<p><b>브랜드</b>KCH</p>
+							<p><b>작업량</b>20,000</p>
+							<p><b>잔&nbsp;&nbsp;&nbsp;량</b>60,000</p>
+							<p><b>완료예정</b>20.12.18 / 15:00</p>
+						</div>
+					</div>
+					<div class="b_ship2">
+						<div class="ship_title">
+							<h4 class="ship_num">2선석<span class="ship_name"></span></h4>
+						</div>
+						<div class="ship_info">
+							<p class="no_ship"><b>선박 없음</b></p>
+						</div>
+					</div>
+					<div class="b_ship3">
+						<div class="ship_title">
+							<h4 class="ship_num">3선석<span class="ship_name">HANJIN GREEN</span></h4>
+						</div>
+						<div class="ship_info">
+							<p><b>브랜드</b>KCH</p>
+							<p><b>작업량</b>20,000</p>
+							<p><b>잔&nbsp;&nbsp;&nbsp;량</b>60,000</p>
+							<p><b>완료예정</b>20.12.18 / 15:00</p>
+						</div>
+					</div>
+					<div class="b_ship4">
+						<div class="ship_title">
+							<h4 class="ship_num">4선석<span class="ship_name">HANJIN GREEN</span></h4>
+						</div>
+						<div class="ship_info">
+							<p><b>브랜드</b>KCH</p>
+							<p><b>작업량</b>20,000</p>
+							<p><b>잔&nbsp;&nbsp;&nbsp;량</b>60,000</p>
+							<p><b>완료예정</b>20.12.18 / 15:00</p>
+						</div>
+					</div>
+					<div class="b_ship5">
+						<div class="ship_title">
+							<h4 class="ship_num">3선석<span class="ship_name">HANJIN GREEN</span></h4>
+						</div>
+						<div class="ship_info">
+							<p><b>브랜드</b>KCH</p>
+							<p><b>작업량</b>20,000</p>
+							<p><b>잔&nbsp;&nbsp;&nbsp;량</b>60,000</p>
+							<p><b>완료예정</b>20.12.18 / 15:00</p>
+						</div>
+					</div>
+					<div class="b_ship6">
+						<div class="ship_title">
+							<h4 class="ship_num">4선석<span class="ship_name">HANJIN GREEN</span></h4>
+						</div>
+						<div class="ship_info">
+							<p><b>브랜드</b>KCH</p>
+							<p><b>작업량</b>20,000</p>
+							<p><b>잔&nbsp;&nbsp;&nbsp;량</b>60,000</p>
+							<p><b>완료예정</b>20.12.18 / 15:00</p>
+						</div>
+					</div>
+				</div>
+
 
 				<div class="monitoring_area">
 					<div class="tunnel_area">

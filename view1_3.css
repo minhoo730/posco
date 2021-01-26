@@ -31,6 +31,17 @@
 			.out_list .ship_title h4 .ship_name{padding-left:16px;}
 			.out_list .ship_info p b{display:inline-block; width:55px; padding-right:35px}
 
+			/* 선석정보 하단 */
+			.bottom_list{position:absolute; left:112px; bottom:56px; z-index:2; background:#e9e9e9; padding:5px;}
+			.bottom_list:after{display:block; content:''; clear:both;}
+			.bottom_list > div{float:left; width:180px; height:130px; background:#fff; margin-right:5px;}
+			.bottom_list > div:last-child{margin-right:0;}
+			.bottom_list > div .ship_title h4{font-size:14px; padding-top:10px;}
+			.bottom_list > div .ship_info{padding:0 15px; margin-top:10px;}
+			.bottom_list > div .ship_info p{font-size:12px;}
+
+			.bottom_list > div .ship_info .no_ship{background:url('img/no_data.png')no-repeat center 8px; text-align:center; padding-top:55px;}
+			.bottom_list > div .ship_info .no_ship b{padding-right:0;}
 
 
 			/* 연료 통로 */
@@ -75,8 +86,8 @@
 
 
 			/* 팝업 */
-			.popup_area{width:500px; position:absolute; left:50%; margin-left:-250px; top:50%; margin-top:-230px; background:#fff url('img/popup_top.png')no-repeat -18px -1px; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
-			.popup_area h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
+			.csu_popup{width:500px; position:absolute; left:50%; margin-left:-250px; top:50%; margin-top:-230px; background:#fff url('img/popup_top.png')no-repeat -18px -1px; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
+			.csu_popup h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
 			.csu_table{padding:30px;}
 			.csu_table > div > h4{font-size:18px; color:#333;}
 			.csu_table > div > h4 .state{color:#0bc300;}
@@ -88,7 +99,7 @@
 			.csu_table table tr td.gap{width:45px;}
 			.csu_table .csu2{margin-top:30px;}
 			.csu_table > div table{width:100%;}
-			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
+			.csu_popup .popup_close{width:200px; height:40px; margin:30px auto; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
 
 
 
@@ -274,20 +285,47 @@
 		.pump4{right:359px;bottom: 310px;}
 
 		/* 메시지 버튼 */
-		.notice_button{position:absolute;right:85px;top: 39px; z-index:2;}
-		.notice_button a{color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px; cursor:pointer;}
-		.notice_button.on{right:85px; z-index:2;}
-		.notice_button.on a{color:#fff; background:#005b95;}
+		.top_button{position:absolute;right:85px;top: 36px; z-index:3;}
+		.top_button button{float:left; color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px; cursor:pointer; border:none;}
+		.notice_button{margin-right:15px;}
 
 		/* 상단 메시지 */
-		.notice_area{top: 65px;width:100%;height:60px;background:rgba(0,83,134,0.9);position:absolute;z-index:3;display:none;}
+		.notice_area{top: 35px; left:200px; position:absolute; z-index:3;}
 		.notice_area.on{display:block;}
-		.notice_area .notice{width:1696px; margin:0 auto;}
-		.notice_area .notice h2{color:#fff; font-size:16px; padding:14px 0; letter-spacing:-0.5px;}
+		.notice_area .notice h2{color:#333; font-size:14px; letter-spacing:-0.5px; font-weight:normal;}
 		.notice_area .notice h2:after{display:block; content:''; clear:both;}
-		.notice_area .notice h2 strong{display:inline-block; background:#158bd4; padding:5px 20px;}
-		.notice_area .notice h2 span.data{display:inline-block; margin:0 20px;}
-		.notice_area .notice h2 a{float:right; color:#fff; margin:7px 0;}
+		.notice_area .notice h2 strong{display:inline-block; background:#158bd4; padding:3px 10px; color:#fff; border-radius:3px;}
+		.notice_area .notice h2 .data{display:inline-block; margin:0 20px; margin-right:10px; font-weight:bold;}
+
+		/* 메시지 팝업 */
+			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px; display:block;}
+			.popup_area h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
+			.notice_table{padding:30px;}
+			.notice_table > div > h4{font-size:18px; color:#333;}
+			.notice_table > div > h4 .state{color:#0bc300;}
+			.notice_table > div > h4 .error{color:#ff2323;}
+			.notice_table table tr{display:block; padding:15px 0;}
+			.notice_table table tr td{font-size:14px; letter-spacing:-1.7px;}
+			.notice_table table tr td.data_name{font-weight:bold; color:#005386; width:80px; vertical-align:top; padding-top:10px;}
+			.notice_table table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
+			.notice_table table tr td.data_number{padding-left:20px; }
+			.notice_table table tr td.gap{width:45px;}
+			.notice_table table tr td .form{width:100%; height:40px; border:1px solid #d9d9d9;}
+			.notice_table table tr td .con_form{height:100px;}
+			.notice_list:after{display:block; content:''; clear:both;}
+			.notice_table .notice_write{margin-top:30px;}
+			.notice_table > div table{width:100%;}
+			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; margin-top:0; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
+
+			.notice_write:after{display:block; content:''; clear:both;}
+			.notice_write{padding-top:30px; border-top:1px solid #d9d9d9;}
+			.notice_write h4{float:left;}
+			.notice_write table tr{border-bottom:1px solid #d9d9d9;}
+			.notice_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
+			.notice_write table tr td.title_num{width:80px; text-align:center;}
+			.notice_write table tr td.title_data{width:80px; text-align:center;}
+			.notice_write table tr td.title_con{width:840px;}
+			.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
 
 	/* 풍향 미세먼지 정보 */
 .wind_area{position:absolute; top:170px; right:110px;}

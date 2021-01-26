@@ -298,23 +298,34 @@
 		.notice_area .notice h2 .data{display:inline-block; margin:0 20px; margin-right:10px; font-weight:bold;}
 
 		/* 메시지 팝업 */
-			.popup_area{width:900px; position:absolute; left:50%; margin-left:-250px; top:50%; margin-top:-230px; background:#fff url('img/popup_top.png')no-repeat -18px -1px; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
+			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
 			.popup_area h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
 			.notice_table{padding:30px;}
 			.notice_table > div > h4{font-size:18px; color:#333;}
 			.notice_table > div > h4 .state{color:#0bc300;}
 			.notice_table > div > h4 .error{color:#ff2323;}
-			.notice_table table tr{display:block; border-bottom:1px solid #d9d9d9; padding:15px 0;}
-			.notice_table table tr td{font-size:16px; letter-spacing:-1.7px;}
-			.notice_table table tr td.data_name{font-weight:bold; color:#005386; width:80px;}
+			.notice_table table tr{display:block; padding:15px 0;}
+			.notice_table table tr td{font-size:14px; letter-spacing:-1.7px;}
+			.notice_table table tr td.data_name{font-weight:bold; color:#005386; width:80px; vertical-align:top; padding-top:10px;}
+			.notice_table table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
 			.notice_table table tr td.data_number{padding-left:20px; }
 			.notice_table table tr td.gap{width:45px;}
+			.notice_table table tr td .form{width:100%; height:40px; border:1px solid #d9d9d9;}
+			.notice_table table tr td .con_form{height:100px;}
+			.notice_list:after{display:block; content:''; clear:both;}
 			.notice_table .notice_write{margin-top:30px;}
 			.notice_table > div table{width:100%;}
-			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
+			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; margin-top:0; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
 
-
-
+			.notice_write:after{display:block; content:''; clear:both;}
+			.notice_write{padding-top:30px; border-top:1px solid #d9d9d9;}
+			.notice_write h4{float:left;}
+			.notice_write table tr{border-bottom:1px solid #d9d9d9;}
+			.notice_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
+			.notice_write table tr td.title_num{width:80px; text-align:center;}
+			.notice_write table tr td.title_data{width:80px; text-align:center;}
+			.notice_write table tr td.title_con{width:840px;}
+			.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
 
 	/* 풍향 미세먼지 정보 */
 .wind_area{position:absolute; top:170px; right:110px;}

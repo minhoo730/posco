@@ -261,11 +261,15 @@
 		/* 점검, 오류 태그 */
 			.repair_t{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 			.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
-			.error_t{}
 			.a602{right:740px; top: 166px;}
 			.a603{right:393px; top: 297px;}
 			.a604{right:393px; top: 451px;}
 
+
+		/* 에러 아이콘 */
+		.ico_area{position:relative;}
+		.ico_area .error_ico{width:25px; height:25px; right:398px; top:365px; background:url('img/error_ico.png')no-repeat; text-indent:-9999px;}
+		.ico_area .repair_ico{width:25px; height:25px; right:744px; top:135px; background:url('img/repair_ico.png')no-repeat; text-indent:-9999px;}
 
 		/* 집진기 태그 */
 		.collector_tag p{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}

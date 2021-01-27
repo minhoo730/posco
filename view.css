@@ -313,7 +313,7 @@
 
 
 			.table_area{padding:30px;}
-			.table_area > div > h4{font-size:18px; color:#333;}
+			.table_area > div > h4{font-size:18px; color:#333; margin-bottom:10px;}
 			.table_area > div > h4 .state{color:#0bc300;}
 			.table_area > div > h4 .error{color:#ff2323;}
 			.table_area table tr{display:block; padding:10px 0;}

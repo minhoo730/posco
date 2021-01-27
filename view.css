@@ -378,7 +378,7 @@
 		.csu_popup .table_area button{display:block;}
 
 		/* B/C 팝업 */
-		.belt_popup{margin-top:-150px; margin-left:-110px; width:380px;}
+		.belt_popup{margin-top:-150px; margin-left:-130px; width:380px;}
 		.belt_popup .table_area:after{display:block; content:''; clear:both;}
 		.belt_popup .table_area > div{float:left; width:320px;}
 		.belt_popup .table_area > div table tr{border-bottom:1px solid #d9d9d9;}

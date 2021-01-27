@@ -368,21 +368,21 @@
 
 			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; margin-top:0; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
 
+		/* 팝업 공통 */
+		.info_pop .table_area:after{display:block; content:''; clear:both;}
+		.info_pop .table_area > div{float:left; width:320px; padding:0px;}
+		.info_pop .table_area > div table tr{border-bottom:1px solid #d9d9d9;}
+		.info_pop .table_area button{display:block;}
+
+
 			/* CSU 팝업 */
 		.csu_popup{margin-top:-250px;}
-		.csu_popup .table_area:after{display:block; content:''; clear:both;}
-		.csu_popup .table_area > div{float:left; width:320px;}
 		.csu_popup .table_area > div:first-child{padding-right:20px;}
 		.csu_popup .table_area > div:last-child{padding-left:20px;}
-		.csu_popup .table_area > div table tr{border-bottom:1px solid #d9d9d9;}
-		.csu_popup .table_area button{display:block;}
 
 		/* B/C 팝업 */
 		.belt_popup{margin-top:-150px; margin-left:-130px; width:380px;}
-		.belt_popup .table_area:after{display:block; content:''; clear:both;}
-		.belt_popup .table_area > div{float:left; width:320px;}
-		.belt_popup .table_area > div table tr{border-bottom:1px solid #d9d9d9;}
-		.belt_popup .table_area button{display:block;}
+
 
 
 		/* 풍향 미세먼지 정보 */

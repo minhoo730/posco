@@ -110,8 +110,8 @@
 
 
 			/* 리크레이머 영역 */
-			.reclaimer_area > div{position:absolute; cursor:pointer;}
-			.rc511{left: 567px;bottom: 433px;width: 65px; height: 65px; background:url('img/reclaimer_on_new.gif')no-repeat;}
+			.reclaimer_area > div{position:absolute;}
+			.rc511{left: 567px;bottom: 433px;width: 65px; height: 65px; background:url('img/reclaimer_on_new.gif')no-repeat; cursor:pointer;}
 			/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 			.rc511 .rc_on{position:relative; left: 16px; top: 7px; font-weight:bold; font-size:12px; transform: rotate(-41deg);}
 			.rc512{left:894px; bottom: 471px; width:88px; height:30px; background:url('img/reclaimer_off.gif')no-repeat;}
@@ -130,14 +130,14 @@
 
 			/* 스태커 영역 */
 			.stack_area > div{position:absolute;}
-			.st501{left:762px; bottom: 536px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
-			.st501 .st_off{position:relative;left: 10px;top: 5px;font-weight:bold;font-size:12px;}
-		    .st502{left:740px; bottom: 402px; width:88px; height:67px;  background:url('img/stacker_on.gif')no-repeat; cursor:pointer;}
-		    .st502 .st_on{position: relative;left: 32px;top: 3px;font-weight: bold;font-size: 12px;transform: rotate(-45deg);}
-			.st503{left:762px;bottom: 270px;width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
-			.st503 .st_off{position:relative;left: 10px;top: 5px;font-weight:bold;font-size:12px;}
-			.st601{right:182px; bottom:427px; width:88px;height:30px;background:url('img/stacker_off.gif')no-repeat;}
-			.st601 .st_off{position:relative;left: 10px;top: 5px;font-weight:bold;font-size:12px;}
+			.st501{left:762px; bottom: 540px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
+			.st501 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
+		    .st502{left:740px; bottom: 387px; width:95px; height:81px;  background:url('img/stacker_on.gif')no-repeat; cursor:pointer;}
+		    .st502 .st_on{position: relative; left: 14px; top: 2px; font-weight: bold; font-size: 12px; transform: rotate(-42deg);}
+			.st503{left:762px;bottom: 272px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
+			.st503 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
+			.st601{right:182px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
+			.st601 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
 
 			/* SL 영역 */
 			.sl_area > div{position:absolute;}

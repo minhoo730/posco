@@ -339,7 +339,7 @@
 			.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
 
 			/* 정비 팝업 */
-			.repair_popup{display:block; margin-top:-450px; }
+			.repair_popup{margin-top:-450px; }
 			.repair_popup > div table{width:100%;}
 			.repair_popup .repair_table table tr td select{width:540px; height:40px; display:block;}
 			.repair_table{padding:30px;}

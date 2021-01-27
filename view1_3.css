@@ -11,7 +11,7 @@
 			/* 선석정보_상단*/
 			.top_list{position:absolute; left:112px; top:85px; z-index:2;}
 			.top_list:after{display:block; content:''; clear:both;}
-			.shipping_in{padding:5px; background:#e9e9e9; float:left;}
+			.shipping_in{padding:6px; background:#e9e9e9; float:left;}
 			.in_list{width:193px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
 			.ship_in{float: left; margin: 10px 0; width: 193px;}
 			.ship_title{padding:0 15px;}
@@ -22,7 +22,7 @@
 			.ship_info{padding:0 15px; margin-top:20px;}
 			.ship_info p{font-size:14px; padding-bottom:5px; color:#797979; letter-spacing:-1.3px;}
 			.ship_info p b{display:inline-block; width:55px; padding-right:2px; color:#333; letter-spacing:-1.5px;}
-			.shipping_out{padding:5px; background:#e9e9e9; float:left; margin-left:25px;}
+			.shipping_out{padding:6px; background:#e9e9e9; float:left; margin-left:25px;}
 			.shipping_out:after{display:block; content:''; clear:both;}
 			.out_list{width:420px; height:153px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
 			.out_list:after{display:block; content:''; clear:both;}
@@ -308,13 +308,15 @@
 		.notice_area .notice h2 .data{display:inline-block; margin:0 20px; margin-right:10px; font-weight:bold;}
 
 		/* 메시지 팝업 */
-			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px; display:none;}
+			.popup_area{width:750px; position:absolute; left:50%; margin-left:-405px; top:50%; margin-top:-430px; background:#fff url('img/popup_top.png')no-repeat right top; border:1px solid #333; z-index:444; border-radius:5px;}
 			.popup_area h2{padding:20px 30px; color:#fff; font-size:20px; background:#0083d4; margin-top:29px; letter-spacing:-1.5px;}
+			.notice_popup{display:none;}
+
 			.notice_table{padding:30px;}
 			.notice_table > div > h4{font-size:18px; color:#333;}
 			.notice_table > div > h4 .state{color:#0bc300;}
 			.notice_table > div > h4 .error{color:#ff2323;}
-			.notice_table table tr{display:block; padding:15px 0;}
+			.notice_table table tr{display:block; padding:10px 0;}
 			.notice_table table tr td{font-size:14px; letter-spacing:-1.7px;}
 			.notice_table table tr td.data_name{font-weight:bold; color:#005386; width:80px; vertical-align:top; padding-top:10px;}
 			.notice_table table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
@@ -337,8 +339,49 @@
 			.notice_write table tr td.title_con{width:840px;}
 			.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
 
+			/* 정비 팝업 */
+			.repair_popup{display:block; margin-top:-450px; }
+			.repair_popup > div table{width:100%;}
+			.repair_popup .repair_table table tr td select{width:540px; height:40px; display:block;}
+			.repair_table{padding:30px;}
+			.repair_table > div > h4{font-size:18px; color:#333;}
+			.repair_table > div > h4 .state{color:#0bc300;}
+			.repair_table > div > h4 .error{color:#ff2323;}
+			.repair_table table tr{display:block; padding:10px 0;}
+			.repair_table table tr td{font-size:14px; letter-spacing:-1.7px;}
+			.repair_table table tr td.data_name{font-weight:bold; color:#005386; width:140px; vertical-align:top; padding-top:10px;}
+			.repair_table table tr td.data_form{font-weight:bold; color:#005386; width:540px;}
+			.repair_table table tr td.data_number{padding-left:20px; }
+			.repair_table table tr td.gap{width:45px;}
+			.repair_table table tr td .form{width:260px; height:40px; border:1px solid #d9d9d9;}
+			.repair_table table tr td .con_form{width:540px; height:100px;}
+			.repair_list:after{display:block; content:''; clear:both;}
+			.repair_table .repair_write{margin-top:30px;}
+			.repair_table > div table{width:100%;}
+
+			.repair_write .data_check{float:left;}
+			.repair_write .data_check p{font-weight:bold; color:#005386; margin-bottom:10px;}
+			.repair_write .data_check p span{padding-left:10px; font-weight:normal;}
+			.repair_write .data_check p span input{height:40px; border:1px solid #d9d9d9;}
+			.repair_write:after{display:block; content:''; clear:both;}
+			.repair_write{padding-top:30px; border-top:1px solid #d9d9d9;}
+			.repair_write h4{float:left;}
+			.repair_write table tr{border-bottom:1px solid #d9d9d9;}
+			.repair_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
+			.repair_write table tr td.title_num{width:80px; text-align:center;}
+			.repair_write table tr td.title_line{width:80px; text-align:center;}
+			.repair_write table tr td.title_info{width:80px; text-align:center;}
+			.repair_write table tr td.title_data{width:780px;}
+			.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
+
+
+			.popup_area .popup_close{width:200px; height:40px; margin:30px auto; margin-top:0; background:#005386; color:#fff; border:none; box-shadow:none; font-size:16px; font-weight:bold; text-align:center; cursor:pointer; display:block; border-radius:5px; border:1px solid #003d62;}
+
+
+
+
 	/* 풍향 미세먼지 정보 */
-.wind_area{position:absolute; top:170px; right:110px;}
+.wind_area{position:absolute; bottom:57px; right:110px;}
 .wind_area h3{font-size:14px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px; text-align:center;}
 .wind_info{width:200px; height:auto; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
 .wind_info:after{display:block; content:''; clear:both;}

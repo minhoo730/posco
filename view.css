@@ -273,7 +273,7 @@
 
 		/* 집진기 태그 */
 		.collector_tag p{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}
-		.bf01{left: 82px;top: 340px;background-position:6px 18px !important;}
+		.bf01{left: 82px;top: 340px;background-position:6px 18px !important; cursor:pointer;}
 		.bf02{left: 82px;bottom: 307px;background-position:6px 18px !important;}
 		.bf03{left: 275px;bottom: 243px;background-position:0px 0px !important;padding-left: 15px;padding-top:3px;}
 		.bf04{left:873px;bottom: 187px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
@@ -289,7 +289,7 @@
 		/* 펌프 태그 */
 		.pump_tag p{font-size:12px; font-weight:bold; color:#333;}
 		.pump_tag p img{display:block; margin:0 auto;}
-		.pump1{right:359px;bottom: 514px;}
+		.pump1{right:359px;bottom: 514px; cursor:pointer;}
 		.pump2{right:359px;bottom: 447px;}
 		.pump3{right:359px;bottom: 379px;}
 		.pump4{right:359px;bottom: 310px;}
@@ -380,10 +380,12 @@
 		.csu_popup .table_area > div:first-child{padding-right:20px;}
 		.csu_popup .table_area > div:last-child{padding-left:20px;}
 
-		/* B/C 팝업 */
+		/* 기타 팝업 */
 		.belt_popup{margin-top:-150px; margin-left:-130px; width:380px;}
 		.rc_popup{margin-top:-200px; margin-left:-200px; width:380px;}
 		.st_popup{margin-top:-150px; margin-left:-130px; width:380px;}
+		.bf_popup{margin-top:-150px; margin-left:-130px; width:380px;}
+		.bump_popup{margin-top:-150px; margin-left:-130px; width:380px;}
 
 
 		/* 풍향 미세먼지 정보 */

@@ -669,7 +669,7 @@
 
 
 		<div class="popup_area rc_popup info_pop">
-			<h2>B/C 상세정보</h2>
+			<h2>R/C 상세정보</h2>
 			<div class="table_area">
 				<div class="rc_info">
 					<h4>R/C 511 상세정보</h4>
@@ -696,14 +696,37 @@
 			<button class="popup_close">닫기</button>
 		</div>
 		<script type="text/javascript">
-				$(".a802").click(function(){
-					$(".belt_popup").css('display','block');
+				$(".rc511").click(function(){
+					$(".rc_popup").css('display','block');
 				});
-				$(".belt_popup .popup_close").click(function(){
-					$(".belt_popup").css('display','none');
+				$(".rc_popup .popup_close").click(function(){
+					$(".rc_popup").css('display','none');
 				});
 		</script>
 
+		<div class="popup_area st_popup info_pop">
+			<h2>S/T502 상세정보</h2>
+			<div class="table_area">
+				<div class="st_info">
+					<h4>ST 502 Screen 상세정보</h4>
+					<table>
+						<tr>
+							<td class="data_name">상태정보</td>
+							<td class="value">동작중</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="popup_close">닫기</button>
+		</div>
+		<script type="text/javascript">
+				$(".rc511").click(function(){
+					$(".rc_popup").css('display','block');
+				});
+				$(".rc_popup .popup_close").click(function(){
+					$(".rc_popup").css('display','none');
+				});
+		</script>
 
 	</body>
 </html>

@@ -69,7 +69,7 @@
 		.example_area .ico_area .hopper:before{background:url('img/hopper.png')no-repeat center 7px;}
 		.example_area .ico_area .hopper span.on:before{background:#00eaff;}
 		.example_area .ico_area .hopper span.off:before{background:#d9d9d9;}
-		.example_area .ico_area .collector_ico:before{background:url('img/collector_ico.png')no-repeat center 8px;}
+		.example_area .ico_area .collector_ico:before{background:url('img/collector_ico.png')no-repeat center 6px;}
 		.example_area .ico_area .collector_ico span.on:before{background:#00eaff;}
 		.example_area .ico_area .collector_ico span.off:before{background:#d9d9d9;}
 		.example_area .ico_area .pump_ico:before{background:url('img/pump_ico.png')no-repeat;}

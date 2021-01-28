@@ -163,9 +163,9 @@
 		.rc514{left:894px;bottom: 338px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
 		.rc514 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px;}
 
-		.rc611{right:191px;bottom: 458px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat;}
+		.rc611{right:130px;bottom: 458px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat;}
 		.rc611 .rc_on{position:relative; left: 16px; top: 7px; font-weight:bold; font-size:12px; transform:rotate(-40deg)}
-		.rc612{right:192px;bottom: 363px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
+		.rc612{right:130px;bottom: 363px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
 		.rc612 .rc_off{position:relative; left:35px; top:8px; font-weight:bold; font-size:12px;}
 
 		/* 스태커 영역 */
@@ -176,7 +176,7 @@
 		.st502 .st_on{position: relative; left: 14px; top: 2px; font-weight: bold; font-size: 12px; transform: rotate(-42deg);}
 		.st503{left:762px;bottom: 272px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
 		.st503 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
-		.st601{right:182px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
+		.st601{right:125px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
 		.st601 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
 
 		/* SL 영역 */
@@ -240,7 +240,7 @@
 		.toff_504{right:669px; bottom: 283px;}
 		.toff_603{right:495px; bottom: 373px;}
 		.toff_605{right:400px; bottom: 433px;}
-		.toff_604{right:407px; top: 540px;}
+		.toff_604{right:300px; bottom: 440px;}
 
 
 		/* 태그영역 */
@@ -274,7 +274,7 @@
 		.a502{right:741px;top: 288px;}
 		.a503{right:662px;top: 375px;}
 		.a506{left:435px;bottom: 408px;}
-		.c601{right:313px;bottom: 501px;}
+		.c601{right:230px;bottom: 501px;}
 		.c603{right:488px;bottom: 545px;}
 		.c604{right:612px;bottom: 591px;}
 		.c605{right:860px;bottom: 591px;}
@@ -294,8 +294,8 @@
 		.c501{left:481px; bottom:482px;}
 		.a504{right:662px; bottom:356px;}
 		.a514{right:568px; bottom:356px;}
-		.a605{right:313px;bottom: 434px;}
-		.c602{right:313px;bottom: 367px;}
+		.a605{right:230px;bottom: 434px;}
+		.c602{right:230px;bottom: 367px;}
 		.a810{right:393px;bottom: 286px;}
 
 	/* 점검, 오류 태그 */
@@ -303,7 +303,7 @@
 		.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.a602{right:740px; top: 166px;}
 		.a603{right:393px; top: 375px; cursor:pointer;}
-		.a604{right:393px; bottom: 470px; cursor:pointer;}
+		.a604{right:340px; bottom: 434px; cursor:pointer;}
 
 
 		/* 에러 아이콘 */
@@ -360,9 +360,10 @@
 		.table_area > div > h4{font-size:18px; color:#333; margin-bottom:10px;}
 		.table_area > div > h4 .state{color:#0bc300;}
 		.table_area > div > h4 .error{color:#ff2323;}
-		.table_area table tr{display:block; padding:10px 0;}
-		.table_area table tr td{font-size:14px; letter-spacing:-1.7px;}
+		/* .table_area table tr{display:block; padding:10px 0;} */
+		.table_area table tr td{font-size:14px; letter-spacing:-1.7px; padding:10px 0;}
 		.table_area table tr td.data_name{font-weight:bold; color:#005386; width:80px; vertical-align:top;}
+		.table_area table tr td.value{width:236px;}
 		.table_area table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
 		.table_area table tr td.data_number{padding-left:20px; }
 		.table_area table tr td.gap{width:45px;}
@@ -415,7 +416,7 @@
 		/* 팝업 공통 */
 		.info_pop .table_area:after{display:block; content:''; clear:both;}
 		.info_pop .table_area > div{float:left; width:320px; padding:0px;}
-		.info_pop .table_area > div table tr{border-bottom:1px solid #d9d9d9;}
+		.info_pop .table_area > div table tr td{border-bottom:1px solid #d9d9d9; padding:15px 0;}
 		.info_pop .table_area button{display:block;}
 
 

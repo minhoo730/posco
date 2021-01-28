@@ -97,7 +97,7 @@
 		.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 
 		/*Error Line */
-		.error_line{position:absolute; width:5px; height:298px; background:#ff2323; text-indent:-9999px; right:408px; top:171px; border-radius:25px;}
+		.error_line{position:absolute; width:5px; height:222px; background:#ff2323; text-indent:-9999px; right:408px; top:171px; border-radius:25px;}
 
 		/* repair Line */
 		.repair_line{position:absolute; width:366px; height:5px; background:#ff8a00; text-indent:-9999px; right:407px; top:172px; border-radius:25px;}
@@ -240,7 +240,7 @@
 		.toff_504{right:669px; bottom: 283px;}
 		.toff_603{right:495px; bottom: 373px;}
 		.toff_605{right:400px; bottom: 433px;}
-		.toff_604{right:407px; top: 417px;}
+		.toff_604{right:407px; top: 540px;}
 
 
 		/* 태그영역 */
@@ -302,13 +302,13 @@
 		.repair_t{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.a602{right:740px; top: 166px;}
-		.a603{right:393px; top: 297px; cursor:pointer;}
-		.a604{right:393px; top: 451px; cursor:pointer;}
+		.a603{right:393px; top: 375px; cursor:pointer;}
+		.a604{right:393px; bottom: 470px; cursor:pointer;}
 
 
 		/* 에러 아이콘 */
 		.ico_area{position:relative;}
-		.ico_area .error_ico{width:25px; height:25px; right:398px; top:365px; background:url('img/error_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
+		.ico_area .error_ico{width:25px; height:25px; right:398px; top:260px; background:url('img/error_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
 		.ico_area .repair_ico{width:25px; height:25px; right:744px; top:135px; background:url('img/repair_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
 
 		/* 집진기 태그 */
@@ -327,14 +327,14 @@
 		.c607dc{left: 772px;top: 409px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
 
 		/* 펌프 태그 */
-		.pump_tag{position:absolute; bottom:58px; right:370px; width:155px; box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%); background:#fff; padding:10px; display:table;}
-		.pump_tag p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:75px; text-align:center; cursor:pointer;}
+		.pump_tag{position:absolute; bottom:58px; right:370px; width:155px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); background:#fff; padding:10px; display:table;}
+		.pump_tag > div p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:74px; text-align:center; cursor:pointer;}
 
-		.pump_tag p:nth-child(1), .pump_tag p:nth-child(2){padding-bottom:6px; border-bottom:1px solid #e9e9e9;}
-		.pump_tag p:nth-child(3), .pump_tag p:nth-child(4){padding-top:6px;}
-		.pump_tag p:nth-child(1), .pump_tag p:nth-child(3){padding-right:0px; border-right:1px solid #e9e9e9;}
-
-
+		.pump_tag > div{border-bottom:1px solid #e9e9e9;}
+		.pump_tag > div.p_top p{padding-bottom:5px;}
+		.pump_tag > div.p_bottom p{padding-top:5px;}
+		.pump_tag > div:last-child{border-bottom:none;}
+		.pump_tag > div p.pump1,	.pump_tag > div p.pump3{border-right:1px solid #e9e9e9;}
 		.pump_tag p img{display:block; margin:0 auto; width:25px;}
 
 

@@ -405,6 +405,7 @@
 						<div class="offline_tag">
 							<p class="a121-1">A121-1</p>
 							<p class="a601">A601</p>
+							<p class="a604">A604</p>
 							<p class="a511">A511</p>
 							<p class="a512">A512</p>
 							<p class="a513">A513</p>
@@ -421,14 +422,17 @@
 						<div class="error_tag">
 							<p class="a602 repair_t">A602</p>
 							<p class="a603 error_t">A603</p>
-							<p class="a604 error_t">A604</p>
 						</div>
 
 						<div class="pump_tag">
+							<div class="p_top">
 							<p class="pump1"><img src="img/pump_on.gif"/>Pump1</p>
 							<p class="pump2"><img src="img/pump_off.gif"/>Pump2</p>
+							</div>
+							<div class="p_bottom">
 							<p class="pump3"><img src="img/pump_on.gif"/>Pump3</p>
 							<p class="pump4"><img src="img/pump_off.gif"/>Pump4</p>
+							</div>
 						</div>
 
 						<!--
@@ -822,7 +826,7 @@
 			<h2>오류 상세정보</h2>
 			<div class="table_area">
 				<div class="bump_info">
-					<h4>A603 - A604 오류 상세정보</h4>
+					<h4>A603 오류 상세정보</h4>
 					<table>
 						<tr>
 							<td class="data_name">오류내용</td>
@@ -834,7 +838,7 @@
 			<button class="popup_close">닫기</button>
 		</div>
 		<script type="text/javascript">
-				$(".error_ico, .a604, .a603").click(function(){
+				$(".error_ico, .a603").click(function(){
 					$(".err_popup").css('display','block');
 				});
 				$(".err_popup .popup_close").click(function(){

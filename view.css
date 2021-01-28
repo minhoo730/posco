@@ -1,4 +1,4 @@
-		body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px; line-height:16px;}
+		body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px; line-height:16px; border-collapse:collapse;}
 
 		.main_bg{background: url('img/posco_1_2.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
 		.monitoring_area{position:relative; width:100%; height:100%;}
@@ -377,7 +377,7 @@
 		.notice_write:after{display:block; content:''; clear:both;}
 		.notice_write{padding-top:30px; border-top:1px solid #d9d9d9;}
 		.notice_write h4{float:left;}
-		.notice_write table tr{border-bottom:1px solid #d9d9d9;}
+		.notice_write table tr{border-bottom:1px solid #d9d9d9; display:block;}
 		.notice_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
 		.notice_write table tr td.title_num{width:80px; text-align:center;}
 		.notice_write table tr td.title_data{width:80px; text-align:center;}
@@ -394,14 +394,15 @@
 		.repair_table table tr td .con_form{width:540px; height:100px;}
 		.repair_list:after{display:block; content:''; clear:both;}
 
-	.repair_write .data_check{float:left;}
-		.repair_write .data_check p{font-weight:bold; color:#005386; margin-bottom:10px;}
+		.repair_write .data_check:after{display:block; content:''; clear:both;}
+		.repair_write h4{float:none; padding-bottom:10px;}
+		.repair_write .data_check p{float:left; font-weight:bold; color:#005386; margin-bottom:10px;}
+		.repair_write .data_check button{float:right;}
 		.repair_write .data_check p span{padding-left:10px; font-weight:normal;}
 		.repair_write .data_check p span input{height:30px; border:1px solid #d9d9d9;}
 		.repair_write:after{display:block; content:''; clear:both;}
 
 		.repair_write{margin-top:30px; padding-top:30px; border-top:1px solid #d9d9d9;}
-		.repair_write h4{float:left;}
 		.repair_write table tr{border-bottom:1px solid #d9d9d9;}
 		.repair_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
 		.repair_write table tr td.title_num{width:80px; text-align:center;}

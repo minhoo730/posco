@@ -1,4 +1,4 @@
-		body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px; line-height:16px;}
+		body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px; line-height:16px; border-collapse:collapse;}
 
 		.main_bg{background: url('img/posco_1_2.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
 		.monitoring_area{position:relative; width:100%; height:100%;}
@@ -13,7 +13,7 @@
 		.top_list:after{display:block; content:''; clear:both;}
 		.shipping_in{padding:6px; background:#e9e9e9; float:left;}
 		.in_list{width:193px; height:152px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
-		.ship_in{float: left; margin: 10px 0; width: 193px;}
+		.ship_in{float: left; margin: 14px 0; width: 193px;}
 		.ship_title{padding:0 15px;}
 		.ship_title h4{display:inline-block; color:#005386; font-size:16px; letter-spacing:-1.5px;}
 		.ship_title h4 .ship_name{color:#333; font-weight:bold; padding-left:25px;}
@@ -21,12 +21,13 @@
 
 		.ship_info{padding:0 15px; margin-top:20px;}
 		.ship_info p{font-size:14px; padding-bottom:8px; color:#797979; letter-spacing:-1.0px;}
+		.ship_info p:last-child{padding-bottom:0;}
 		.ship_info p b{display:inline-block; width:55px; padding-right:2px; color:#333; letter-spacing:-1.5px;}
 		.shipping_out{padding:6px; background:#e9e9e9; float:left; margin-left:25px;}
 		.shipping_out:after{display:block; content:''; clear:both;}
 		.out_list{width:420px; height:152px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
 		.out_list:after{display:block; content:''; clear:both;}
-		.out_list > div{float:left; margin:10px 0; width:209px; border-right:1px solid #e9e9e9;}
+		.out_list > div{float:left; margin:14px 0; width:209px; border-right:1px solid #e9e9e9;}
 		.out_list .out2{border-right:none;}
 		.out_list .ship_title h4 .ship_name{padding-left:16px;}
 		.out_list .ship_info p b{display:inline-block; width:55px; padding-right:35px}
@@ -96,7 +97,7 @@
 		.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 
 		/*Error Line */
-		.error_line{position:absolute; width:5px; height:298px; background:#ff2323; text-indent:-9999px; right:408px; top:171px; border-radius:25px;}
+		.error_line{position:absolute; width:5px; height:222px; background:#ff2323; text-indent:-9999px; right:408px; top:171px; border-radius:25px;}
 
 		/* repair Line */
 		.repair_line{position:absolute; width:366px; height:5px; background:#ff8a00; text-indent:-9999px; right:407px; top:172px; border-radius:25px;}
@@ -162,9 +163,9 @@
 		.rc514{left:894px;bottom: 338px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
 		.rc514 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px;}
 
-		.rc611{right:191px;bottom: 458px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat;}
+		.rc611{right:130px;bottom: 458px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat;}
 		.rc611 .rc_on{position:relative; left: 16px; top: 7px; font-weight:bold; font-size:12px; transform:rotate(-40deg)}
-		.rc612{right:192px;bottom: 363px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
+		.rc612{right:130px;bottom: 363px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;}
 		.rc612 .rc_off{position:relative; left:35px; top:8px; font-weight:bold; font-size:12px;}
 
 		/* 스태커 영역 */
@@ -175,7 +176,7 @@
 		.st502 .st_on{position: relative; left: 14px; top: 2px; font-weight: bold; font-size: 12px; transform: rotate(-42deg);}
 		.st503{left:762px;bottom: 272px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
 		.st503 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
-		.st601{right:182px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
+		.st601{right:125px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat;}
 		.st601 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
 
 		/* SL 영역 */
@@ -239,7 +240,7 @@
 		.toff_504{right:669px; bottom: 283px;}
 		.toff_603{right:495px; bottom: 373px;}
 		.toff_605{right:400px; bottom: 433px;}
-		.toff_604{right:407px; top: 417px;}
+		.toff_604{right:300px; bottom: 440px;}
 
 
 		/* 태그영역 */
@@ -273,7 +274,7 @@
 		.a502{right:741px;top: 288px;}
 		.a503{right:662px;top: 375px;}
 		.a506{left:435px;bottom: 408px;}
-		.c601{right:313px;bottom: 501px;}
+		.c601{right:230px;bottom: 501px;}
 		.c603{right:488px;bottom: 545px;}
 		.c604{right:612px;bottom: 591px;}
 		.c605{right:860px;bottom: 591px;}
@@ -293,21 +294,21 @@
 		.c501{left:481px; bottom:482px;}
 		.a504{right:662px; bottom:356px;}
 		.a514{right:568px; bottom:356px;}
-		.a605{right:313px;bottom: 434px;}
-		/* .a602{right:313px;bottom: 367px;} */
+		.a605{right:230px;bottom: 434px;}
+		.c602{right:230px;bottom: 367px;}
 		.a810{right:393px;bottom: 286px;}
 
 	/* 점검, 오류 태그 */
 		.repair_t{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.a602{right:740px; top: 166px;}
-		.a603{right:393px; top: 297px; cursor:pointer;}
-		.a604{right:393px; top: 451px; cursor:pointer;}
+		.a603{right:393px; top: 375px; cursor:pointer;}
+		.a604{right:340px; bottom: 434px; cursor:pointer;}
 
 
 		/* 에러 아이콘 */
 		.ico_area{position:relative;}
-		.ico_area .error_ico{width:25px; height:25px; right:398px; top:365px; background:url('img/error_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
+		.ico_area .error_ico{width:25px; height:25px; right:398px; top:260px; background:url('img/error_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
 		.ico_area .repair_ico{width:25px; height:25px; right:744px; top:135px; background:url('img/repair_ico.png')no-repeat; text-indent:-9999px; cursor:pointer;}
 
 		/* 집진기 태그 */
@@ -326,10 +327,15 @@
 		.c607dc{left: 772px;top: 409px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
 
 		/* 펌프 태그 */
-		.pump_tag{position:absolute; bottom:58px; right:500px; width:155px; box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%); background:#fff; padding:10px;}
-		.pump_tag p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:75px; text-align:center; cursor:pointer;}
+		.pump_tag{position:absolute; bottom:58px; right:370px; width:155px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); background:#fff; padding:10px; display:block;}
+		.pump_tag > div p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:74px; text-align:center; cursor:pointer;}
+
+		.pump_tag > div{border-bottom:1px solid #e9e9e9;}
+		.pump_tag > div.p_top p{padding-bottom:5px;}
+		.pump_tag > div.p_bottom p{padding-top:5px;}
+		.pump_tag > div:last-child{border-bottom:none;}
+		.pump_tag > div p.pump1,	.pump_tag > div p.pump3{border-right:1px solid #e9e9e9;}
 		.pump_tag p img{display:block; margin:0 auto; width:25px;}
-		.pump_tag p:nth-child(3), .pump_tag p:nth-child(4){padding-top:10px;}
 
 
 		/* 메시지 버튼 */
@@ -354,9 +360,10 @@
 		.table_area > div > h4{font-size:18px; color:#333; margin-bottom:10px;}
 		.table_area > div > h4 .state{color:#0bc300;}
 		.table_area > div > h4 .error{color:#ff2323;}
-		.table_area table tr{display:block; padding:10px 0;}
-		.table_area table tr td{font-size:14px; letter-spacing:-1.7px;}
+		/* .table_area table tr{display:block; padding:10px 0;} */
+		.table_area table tr td{font-size:14px; letter-spacing:-1.7px; padding:10px 0;}
 		.table_area table tr td.data_name{font-weight:bold; color:#005386; width:80px; vertical-align:top;}
+		.table_area table tr td.value{width:236px;}
 		.table_area table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
 		.table_area table tr td.data_number{padding-left:20px; }
 		.table_area table tr td.gap{width:45px;}
@@ -370,7 +377,7 @@
 		.notice_write:after{display:block; content:''; clear:both;}
 		.notice_write{padding-top:30px; border-top:1px solid #d9d9d9;}
 		.notice_write h4{float:left;}
-		.notice_write table tr{border-bottom:1px solid #d9d9d9;}
+		.notice_write table tr{border-bottom:1px solid #d9d9d9; display:block;}
 		.notice_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
 		.notice_write table tr td.title_num{width:80px; text-align:center;}
 		.notice_write table tr td.title_data{width:80px; text-align:center;}
@@ -387,14 +394,15 @@
 		.repair_table table tr td .con_form{width:540px; height:100px;}
 		.repair_list:after{display:block; content:''; clear:both;}
 
-	.repair_write .data_check{float:left;}
-		.repair_write .data_check p{font-weight:bold; color:#005386; margin-bottom:10px;}
+		.repair_write .data_check:after{display:block; content:''; clear:both;}
+		.repair_write h4{float:none; padding-bottom:10px;}
+		.repair_write .data_check p{float:left; font-weight:bold; color:#005386; margin-bottom:10px;}
+		.repair_write .data_check button{float:right;}
 		.repair_write .data_check p span{padding-left:10px; font-weight:normal;}
 		.repair_write .data_check p span input{height:30px; border:1px solid #d9d9d9;}
 		.repair_write:after{display:block; content:''; clear:both;}
 
 		.repair_write{margin-top:30px; padding-top:30px; border-top:1px solid #d9d9d9;}
-		.repair_write h4{float:left;}
 		.repair_write table tr{border-bottom:1px solid #d9d9d9;}
 		.repair_write table tr td.t_title{font-weight:bold; color:#005386; text-align:center;}
 		.repair_write table tr td.title_num{width:80px; text-align:center;}
@@ -409,7 +417,7 @@
 		/* 팝업 공통 */
 		.info_pop .table_area:after{display:block; content:''; clear:both;}
 		.info_pop .table_area > div{float:left; width:320px; padding:0px;}
-		.info_pop .table_area > div table tr{border-bottom:1px solid #d9d9d9;}
+		.info_pop .table_area > div table tr td{border-bottom:1px solid #d9d9d9; padding:15px 0;}
 		.info_pop .table_area button{display:block;}
 
 
@@ -429,7 +437,7 @@
 
 
 		/* 풍향 미세먼지 정보 */
-		.wind_area{position:absolute; bottom:58px; right:238px;}
+		.wind_area{position:absolute; bottom:58px; right:110px;}
 		.wind_area h3{font-size:14px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px; text-align:center;}
 		.wind_info{width:242px; padding:25px 0; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
 		.wind_info:after{display:block; content:''; clear:both;}
@@ -442,3 +450,7 @@
 		.wind_info p .w_value.green{color:#0bc300;}
 		.wind_info h3{font-size:16px; color:#333;}
 
+		/* 좌측 야드 */
+		.l_yard_area{position:absolute; left:530px; bottom:498px;}
+		.l_yard_area p{width:490px; height:35px; display:block;}
+		.l_yard_area .s_yard{background:url('img/l_yard_off.png')no-repeat;}

@@ -327,7 +327,7 @@
 		.c607dc{left: 772px;top: 409px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
 
 		/* 펌프 태그 */
-		.pump_tag{position:absolute; bottom:58px; right:370px; width:155px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); background:#fff; padding:10px; display:table;}
+		.pump_tag{position:absolute; bottom:58px; right:370px; width:155px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); background:#fff; padding:10px; display:block;}
 		.pump_tag > div p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:74px; text-align:center; cursor:pointer;}
 
 		.pump_tag > div{border-bottom:1px solid #e9e9e9;}
@@ -450,3 +450,7 @@
 		.wind_info p .w_value.green{color:#0bc300;}
 		.wind_info h3{font-size:16px; color:#333;}
 
+		/* 좌측 야드 */
+		.l_yard_area{position:absolute; left:530px; bottom:498px;}
+		.l_yard_area p{width:490px; height:35px; display:block;}
+		.l_yard_area .s_yard{background:url('img/l_yard_off.png')no-repeat;}

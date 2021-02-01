@@ -66,8 +66,11 @@
 		.example_area .ico_area p:before{position:absolute; content:''; width:25px; height:30px; top:7px; left:0;}
 		.example_area .ico_area p span{font-size:12px; font-weight:normal; position:relative;}
 		.example_area .ico_area p span:before{position:absolute; content:''; width:10px; height:10px; border-radius:50px; left:6px; top:4px;}
+		.example_area .ico_area .collector_ico span.on{margin-left:8px;}
+
+
 		.example_area .ico_area .collector_ico:before{top:-4px;}
-		.example_area .ico_area .hopper span.on{margin-left:12px;}
+		.example_area .ico_area .hopper span.on{margin-left:3px;}
 		.example_area .ico_area .hopper:before{background:url('img/hopper.png')no-repeat center 7px; top:-6px;}
 		.example_area .ico_area .hopper span.on:before{background:#00eaff;}
 		.example_area .ico_area .hopper span.off:before{background:#d9d9d9;}
@@ -83,7 +86,7 @@
 		.example_area .ico_area .rp_ico:before{background:url('img/repair_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 		.example_area .ico_area .err_ico:before{background:url('img/error_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 
-		.hopper_area .hopper1{right:30px; bottom:425px; background:url('img/hopper_on.png')no-repeat left center; font-size:14px; font-weight:bold;  text-align:center; padding:10px 0 10px 25px;}
+		.hopper_area .hopper1{right:85px; bottom:433px; background:url('img/hopper_on.png')no-repeat left center; font-size:14px; font-weight:bold;  text-align:center; width:22px; height:25px; text-align:center; padding-top:5px; padding-right:2px;}
 
 
 		/* 연료 통로 */

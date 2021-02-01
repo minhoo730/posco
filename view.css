@@ -451,7 +451,7 @@
 
 		/* 기타 팝업 */
 		.belt_popup{margin-top:-150px; margin-left:-130px; width:380px;}
-		.belt807_popup{margin-top:-150px; margin-left:-150px; width:380px;}
+		.belt807_popup{margin-top:-190px; margin-left:-150px; width:380px;}
 		.belt807_popup .table_area .belt_info{width:100%;}
 		.belt807_popup .table_area .belt_info p{font-size:14px; font-weight:bold; text-align:right; margin-top:10px;}
 		.belt807_popup table tr td.bc_name{color:#333; font-size:16px; font-weight:bold;}

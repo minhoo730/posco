@@ -193,6 +193,11 @@
 		.sl2_1 .sl_on{background:url('img/sl_on.gif')no-repeat; right:15px; top:24px; z-index:1;}
 		.sl2_1 .sl_off{background:url('img/sl_off.gif')no-repeat;right: 30px;top:24px;z-index:1;}
 
+		/* Ship 영역 */
+		.csu_ship{left:130px; top:310px;}
+		.sl1_ship{left:416px; top:310px;}
+		.sl2_ship{left:606px; top:310px;}
+
 
 		/* 집진기 */
 		.collector_area > div{position:absolute;}

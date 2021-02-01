@@ -456,7 +456,7 @@
 		.belt807_popup .table_area .belt_info p{font-size:14px; font-weight:bold; text-align:right; margin-top:10px;}
 		.belt807_popup table tr td.bc_name{color:#333; font-size:16px; font-weight:bold;}
 		.belt807_popup table tr:first-child td{width:20%;}
-		.belt807_popup table tr td.value{text-align:center;}
+		.belt807_popup table tr td.value{text-align:left;}
 		.rc_popup{margin-top:-200px; margin-left:-200px; width:380px;}
 		.st_popup{margin-top:-150px; margin-left:-130px; width:380px;}
 		.bf_popup{margin-top:-150px; margin-left:-130px; width:380px;}

@@ -80,7 +80,7 @@
 		.example_area .besides p:before{position:absolute; content:''; width:25px; height:30px; top:7px; left:0;}
 		.example_area .besides p span{font-size:12px; font-weight:normal; position:relative;}
 		.example_area .besides p span:before{position:absolute; content:''; width:10px; height:10px; border-radius:50px; left:6px; top:4px;}
-		.example_area .besides .pump_ico:before{background:url('img/pump_ico.png')no-repeat;}
+		.example_area .besides .pump_ico:before{background:url('img/pump_ico.png')no-repeat; background-size:17px;}
 		.example_area .besides .pump_ico span.on{margin-left:16px;}
 		.example_area .besides .pump_ico span.on:before{background:#0084d8;}
 		.example_area .besides .pump_ico span.off:before{background:#d9d9d9;}

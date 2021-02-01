@@ -75,15 +75,10 @@
 		.example_area .ico_area .collector_ico span.on:before{background:#00eaff;}
 		.example_area .ico_area .collector_ico span.off:before{background:#d9d9d9;}
 
-		.example_area .besides{border-top:1px solid #005386; padding:0 25px;}
-		.example_area .besides p{font-size:14px; font-weight:bold; padding:12px 0 12px 35px; position:relative;}
-		.example_area .besides p:before{position:absolute; content:''; width:25px; height:30px; top:7px; left:0;}
-		.example_area .besides p span{font-size:12px; font-weight:normal; position:relative;}
-		.example_area .besides p span:before{position:absolute; content:''; width:10px; height:10px; border-radius:50px; left:6px; top:4px;}
-		.example_area .besides .pump_ico:before{background:url('img/pump_ico.png')no-repeat;}
-		.example_area .besides .pump_ico span.on{margin-left:16px;}
-		.example_area .besides .pump_ico span.on:before{background:#0084d8;}
-		.example_area .besides .pump_ico span.off:before{background:#d9d9d9;}
+		.example_area .ico_area .pump_ico:before{background:url('img/pump_ico.png')no-repeat; background-size:17px; left:5px; top:-2px;}
+		.example_area .ico_area .pump_ico span.on{margin-left:16px;}
+		.example_area .ico_area .pump_ico span.on:before{background:#0084d8;}
+		.example_area .ico_area .pump_ico span.off:before{background:#d9d9d9;}
 
 		.example_area .ico_area .rp_ico:before{background:url('img/repair_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 		.example_area .ico_area .err_ico:before{background:url('img/error_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
@@ -160,10 +155,6 @@
 		/* 리크레이머 영역 */
 		.reclaimer_area > div{position:absolute;}
 		.rc511{left: 567px;bottom: 433px;width: 65px; height: 65px; background:url('img/reclaimer_on_new.gif')no-repeat; cursor:pointer; z-index:2;}
-		.re_mometer{right:-20px; top:-2px;}
-		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
-		.re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
-		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
 		.rc511 .rc_on{position:relative; left: 16px; top: 7px; font-weight:bold; font-size:12px; transform: rotate(-41deg); z-index:2;}
 		.rc512{left:894px; bottom: 471px; width:88px; height:30px; background:url('img/reclaimer_off.gif')no-repeat; z-index:2;}
 		.rc512 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px; z-index:2;}
@@ -390,7 +381,7 @@
 		.table_area > div > h4 .state{color:#0bc300;}
 		.table_area > div > h4 .error{color:#ff2323;}
 		/* .table_area table tr{display:block; padding:10px 0;} */
-		.table_area table tr td{font-size:14px; letter-spacing:-1.7px; padding:10px 0;}
+		.table_area table tr td{font-size:14px; letter-spacing:-1.0px; padding:10px 0;}
 		.table_area table tr td.data_name{font-weight:bold; color:#005386; width:110px; vertical-align:top;}
 		.table_area table tr td.value{width:216px;}
 		.table_area table tr td.data_form{font-weight:bold; color:#005386; width:820px;}
@@ -460,7 +451,12 @@
 
 		/* 기타 팝업 */
 		.belt_popup{margin-top:-150px; margin-left:-130px; width:380px;}
-		.belt807_popup{margin-top:-150px; margin-left:-130px; width:380px;}
+		.belt807_popup{margin-top:-150px; margin-left:-150px; width:380px;}
+		.belt807_popup .table_area .belt_info{width:100%;}
+		.belt807_popup .table_area .belt_info p{font-size:14px; font-weight:bold; text-align:right; margin-top:10px;}
+		.belt807_popup table tr td.bc_name{color:#333; font-size:16px; font-weight:bold;}
+		.belt807_popup table tr:first-child td{width:20%;}
+		.belt807_popup table tr td.value{text-align:center;}
 		.rc_popup{margin-top:-200px; margin-left:-200px; width:380px;}
 		.st_popup{margin-top:-150px; margin-left:-130px; width:380px;}
 		.bf_popup{margin-top:-150px; margin-left:-130px; width:380px;}
@@ -498,6 +494,11 @@
 		.l_yard_area .t_yard.on:before{color:#fff;}
 		.l_yard_area .s_yard:before{content:'S';}
 
+		.l_yard_area .re_mometer{left:20px; top:3px; position:absolute; cursor:pointer;}
+		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
+		.l_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
+		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
+
 
 	/* 우측 야드 */
 		.r_yard_area{position:absolute; right:112px; bottom:327px; z-index:1;}
@@ -513,3 +514,7 @@
 		.r_yard_area .x_yard:before{content:'X';}
 		.r_yard_area .x_yard.on:before{color:#fff;}
 		.r_yard_area .x1_yard:before{content:'X1';}
+		.r_yard_area .re_mometer{left:20px; top:3px; position:absolute; cursor:pointer;}
+		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
+		.r_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
+		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}

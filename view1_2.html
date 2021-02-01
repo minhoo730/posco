@@ -148,11 +148,9 @@
 					<div class="ico_area">
 						<p class="collector_ico">집진기 <span class="on">(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가동</span><span class="off">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비가동)</span></p>
 						<p class="hopper">호퍼 <span class="on">(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가동</span><span class="off">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비가동)</span></p>
+						<p class="pump_ico">펌프<span class="on">(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가동</span><span class="off">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비가동)</span></p>
 						<p class="rp_ico">정비</p>
 						<p class="err_ico">오류사유</p>
-					</div>
-					<div class="besides">
-						<p class="pump_ico">펌프<span class="on">(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가동</span><span class="off">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비가동)</span></p>
 					</div>
 				</div>
 
@@ -244,8 +242,6 @@
 					<div class="reclaimer_area">
 						<div class="rc511">
 							<p class="rc_on"><span class="rc">R/C 511</span></p>
-							<p class="re_mometer"><img src="img/thermometer.gif"/><span class="celsius"></span></p>
-
 						</div>
 						<div class="rc512">
 							<p class="rc_off"><span class="rc">R/C 512</span></p>
@@ -258,7 +254,6 @@
 						</div>
 						<div class="rc611">
 							<p class="rc_on"><span class="rc">R/C 611</span></p>
-							<p class="re_mometer"><img src="img/thermometer.gif"/></p>
 						</div>
 						<div class="rc612">
 							<p class="rc_off"><span class="rc">R/C 612</span></p>
@@ -424,13 +419,19 @@
 							</div>
 						</div>
 						<div class="l_yard_area">
-							<p class="s_yard"></p>
+							<p class="s_yard">
+								<span class="re_mometer">
+									<img src="img/thermometer.gif"/>
+								</span>
+							</p>
 							<p class="t_yard on"></p>
 							<p class="u_yard"></p>
 							<p class="v_yard"></p>
 						</div>
 						<div class="r_yard_area">
-							<p class="x1_yard"></p>
+							<p class="x1_yard">
+								<span class="re_mometer"><img src="img/thermometer.gif"/></span>
+							</p>
 							<p class="x_yard on"></p>
 							<p class="y_yard"></p>
 							<p class="y1_yard"></p>
@@ -612,11 +613,11 @@
 							<td class="value">286</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/H(Ton / Hour)</td>
+							<td class="data_name">T/H</td>
 							<td class="value">-</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/D(Ton / Day</td>
+							<td class="data_name">T/D</td>
 							<td class="value">-</td>
 						</tr>
 					</table>
@@ -647,11 +648,11 @@
 							<td class="value">0</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/H(Ton / Hour)</td>
+							<td class="data_name">T/H</td>
 							<td class="value">-</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/D(Ton / Day</td>
+							<td class="data_name">T/D</td>
 							<td class="value">-</td>
 						</tr>
 					</table>
@@ -698,11 +699,11 @@
 							<td class="value">286</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/H(Ton / Hour)</td>
+							<td class="data_name">T/H</td>
 							<td class="value">-</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/D(Ton / Day</td>
+							<td class="data_name">T/D</td>
 							<td class="value">-</td>
 						</tr>
 					</table>
@@ -733,11 +734,11 @@
 							<td class="value">286</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/H(Ton / Hour)</td>
+							<td class="data_name">T/H</td>
 							<td class="value">-</td>
 						</tr>
 						<tr>
-							<td class="data_name">T/D(Ton / Day</td>
+							<td class="data_name">T/D</td>
 							<td class="value">-</td>
 						</tr>
 					</table>
@@ -766,19 +767,28 @@
 				<div class="belt_info">
 					<h4>A807 Motor 상세정보</h4>
 					<table>
-						<tr>
-							<td class="data_name">상태정보</td>
-							<td class="value">동작중</td>
+						<tr class="first_line">
+							<td class="data_name">A807M01</td>
+							<td class="value">29(A)</td>
+							<td class="value">8(UM)</td>
 						</tr>
 						<tr>
-							<td class="data_name">진동값</td>
-							<td class="value">0</td>
+							<td class="data_name">A807M02</td>
+							<td class="value">29(A)</td>
+							<td class="value">8(UM)</td>
 						</tr>
 						<tr>
-							<td class="data_name">전류값</td>
-							<td class="value">0</td>
+							<td class="data_name">A807M03</td>
+							<td class="value">29(A)</td>
+							<td class="value">8(UM)</td>
+						</tr>
+						<tr>
+							<td class="data_name">A807M04</td>
+							<td class="value">29(A)</td>
+							<td class="value">8(UM)</td>
 						</tr>
 					</table>
+					<p class="mark">A : 전류 / UM : 진동</p>
 				</div>
 			</div>
 			<button class="popup_close">닫기</button>

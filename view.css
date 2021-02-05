@@ -499,7 +499,7 @@
 		.l_yard_area .t_yard.on:before{color:#fff;}
 		.l_yard_area .s_yard:before{content:'S';}
 
-		.l_yard_area .re_mometer{right:-50px; top:-3px; position:absolute; cursor:pointer;}
+		.l_yard_area .re_mometer{right:-40px; top:-3px; position:absolute; cursor:pointer;}
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		.l_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
 		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
@@ -519,7 +519,7 @@
 		.r_yard_area .x_yard:before{content:'X';}
 		.r_yard_area .x_yard.on:before{color:#fff;}
 		.r_yard_area .x1_yard:before{content:'X1';}
-		.r_yard_area .re_mometer{right:-50px; top:-3px; position:absolute; cursor:pointer;}
+		.r_yard_area .re_mometer{right:-40px; top:-3px; position:absolute; cursor:pointer;}
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		.r_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
 		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}

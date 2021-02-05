@@ -1,6 +1,6 @@
 		body, h1,h2,h3,h4,h5,h6,p,span,strong,b, a, table, tr, td, button{margin:0; padding:0; font-family:'Malgun Gothic'; text-decoration: blink; letter-spacing:-1px; line-height:16px; border-collapse:collapse;}
 
-		.main_bg{background: url('img/posco_1_2.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
+		.main_bg{background: url('img/posco_1_3.jpg')no-repeat 100% top;height:1080px;width:1920px;margin:0 auto;position:relative;}
 		.monitoring_area{position:relative; width:100%; height:100%;}
 		.monitoring_area p{position:absolute;}
 		.view_link{position:absolute; right:580px; z-index:333; top:20px;}
@@ -86,7 +86,7 @@
 		.example_area .ico_area .rp_ico:before{background:url('img/repair_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 		.example_area .ico_area .err_ico:before{background:url('img/error_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 
-		.hopper_area .hopper1{right:85px; bottom:433px; background:url('img/hopper_on.png')no-repeat left center; font-size:14px; font-weight:bold;  text-align:center; width:22px; height:25px; text-align:center; padding-top:5px; padding-right:2px;}
+		.hopper_area .hopper1{right:85px; bottom:472px; background:url('img/hopper_on.png')no-repeat left center; font-size:14px; font-weight:bold;  text-align:center; width:22px; height:25px; text-align:center; padding-top:5px; padding-right:2px;}
 
 
 		/* 연료 통로 */
@@ -95,10 +95,11 @@
 		.nickel_bar_bot1{left:112px;top: 360px;width:5px;height:404px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
 		.nickel_bar_right1{left:112px;bottom: 316px;width:141px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
 		.nickel_bar_bot2{left:248px;bottom: 245px;width:5px;height:76px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
-		.nickel_bar_right2{left:248px;bottom: 245px;width:1556px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
-		.nickel_bar_top1{right: 129px;bottom: 245px;width:5px;height:40px;background:url('img/nickel_bar_top.gif')repeat-y;}
-		.nickel_bar_bot3{right: 129px;bottom: 210px;width:5px;height:35px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
-		.nickel_bar_right3{right:116px;bottom: 280px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
+		.nickel_bar_right2{left:248px;bottom: 245px;width:1264px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
+		.nickel_bar_top1{right: 129px;bottom: 305px;width:5px;height:40px;background:url('img/nickel_bar_top.gif')repeat-y;}
+		.nickel_bar_top2{right: 408px;bottom: 245px;width:5px;height:64px;background:url('img/nickel_bar_top.gif')repeat-y;}
+		.nickel_bar_bot3{right: 129px;bottom: 270px;width:5px;height:35px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
+		.nickel_bar_right3{right:130px; bottom: 304px; width:283px; height:5px; background:url('img/nickel_bar_right.gif')repeat-x; }
 		.nickel_bar_right4{right:116px;bottom: 210px;width:146px;height:5px;background:url('img/nickel_bar_right.gif')repeat-x; display:none;}
 
 		/*Error Line */
@@ -119,8 +120,8 @@
 		.coal_bar_bottom1_2{right:913px;top: 124px;width:5px;height:175px;background:url('img/coal_bar_bottom.gif')repeat-y;}
 
 		/* 석탄 라인 동작 영역2 */
-		.coal_bar_left2_1{right:112px;bottom: 508px;width:397px;height:5px;background:url('img/coal_bar_left.gif')repeat-x;}
-		.coal_bar_top2_1{right:504px;bottom: 508px;width:5px;height:95px;background:url('img/coal_bar_top.gif')repeat-y;}
+		.coal_bar_left2_1{right:112px;bottom: 551px;width:397px;height:5px;background:url('img/coal_bar_left.gif')repeat-x;}
+		.coal_bar_top2_1{right:504px;top: 477px;width:5px;height:52px;background:url('img/coal_bar_top.gif')repeat-y;}
 		.coal_bar_left2_2{right:504px;bottom: 598px;width:655px;height:5px;background:url('img/coal_bar_left.gif')repeat-x;}
 		.coal_bar_top2_2{left:760px;bottom: 598px;width:5px;height:67px;background:url('img/coal_bar_top.gif')repeat-y;}
 		.coal_bar_left2_3{left: 399px;top: 415px;width: 367px;height:5px;background:url('img/coal_bar_left.gif')repeat-x;}
@@ -168,9 +169,9 @@
 		.rc514{left:894px;bottom: 338px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat; z-index:2;}
 		.rc514 .rc_off{position:relative;left: 33px;top: 8px;font-weight:bold;font-size:12px; z-index:2;}
 
-		.rc611{right:130px;bottom: 458px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat; z-index:2;}
+		.rc611{right:130px;top: 514px;width: 65px; height: 65px;  background:url('img/reclaimer_on_new.gif')no-repeat; z-index:2;}
 		.rc611 .rc_on{position:relative; left: 16px; top: 7px; font-weight:bold; font-size:12px; transform:rotate(-40deg); z-index:2;}
-		.rc612{right:130px;bottom: 363px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat; z-index:2;}
+		.rc612{right:130px;bottom: 402px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat; z-index:2;}
 		.rc612 .rc_off{position:relative; left:35px; top:8px; font-weight:bold; font-size:12px; z-index:2;}
 
 		/* 스태커 영역 */
@@ -181,7 +182,7 @@
 		.st502 .st_on{position: relative; left: 14px; top: 2px; font-weight: bold; font-size: 12px; transform: rotate(-42deg); z-index:2;}
 		.st503{left:762px;bottom: 272px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat; z-index:2;}
 		.st503 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px;}
-		.st601{right:125px; bottom:430px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat; z-index:2;}
+		.st601{right:125px; bottom:473px; width:88px; height:30px; background:url('img/stacker_off.gif')no-repeat; z-index:2;}
 		.st601 .st_off{position:relative; left: 26px; top: 7px; font-weight:bold; font-size:12px; z-index:2;}
 
 		/* CSU 영역 */
@@ -233,8 +234,9 @@
 		.ton_805{left:239px;bottom: 308px;}
 		.ton_806{left:247px;bottom: 244px;}
 		.ton_807{left:871px;bottom: 244px;}
-		.ton_809{right:401px;bottom: 244px;}
-		.ton_601{right:495px;bottom: 507px;}
+		.ton_809{right:407px;bottom: 244px;}
+		.ton_810{right:400px;bottom: 296px;}
+		.ton_601{right:495px;top: 515px;}
 		.ton_603{right:503px;bottom: 590px;}
 		.ton_602{right:407px;top: 171px;}
 		.ton_605{right:804px;bottom: 597px;}
@@ -261,9 +263,9 @@
 		.toff_514_1{right:583px; bottom: 407px;}
 		.toff_514_2{right:583px; bottom: 283px;}
 		.toff_504{right:669px; bottom: 283px;}
-		.toff_603{right:495px; bottom: 373px;}
-		.toff_605{right:400px; bottom: 433px;}
-		.toff_604{right:300px; bottom: 440px;}
+		.toff_603{right:495px; bottom: 413px;}
+		.toff_605{right:400px; bottom: 476px;}
+		.toff_604{right:300px; bottom: 483px;}
 
 
 		/* 태그영역 */
@@ -276,11 +278,11 @@
 		.a805{left:170px;bottom: 309px;}
 		.a806{left:232px;bottom: 275px;}
 		.a807{left:550px;bottom: 238px;}
-		.a808{right:735px;bottom: 238px;}
-		.a809{right:315px;bottom: 238px;}
-		.m202{right: 110px;bottom: 273px;}
-		.m202r{right: 110px;bottom: 239px;}
-		.m202b{right: 110px;bottom: 203px;}
+		.a808{right:394px;bottom: 268px;}
+		.a809{right:315px;bottom: 298px;}
+		.m202{right: 110px;bottom: 332px;}
+		.m202r{right: 110px;bottom: 298px;}
+		.m202b{right: 110px;bottom: 265px;}
 
 		/* 슬라그 태그 */
 		.slog_tag p{background:#ffe65a; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center;}
@@ -297,8 +299,8 @@
 		.a502{right:741px;top: 288px;}
 		.a503{right:662px;top: 375px;}
 		.a506{left:435px;bottom: 408px;}
-		.c601{right:230px;bottom: 501px;}
-		.c603{right:488px;bottom: 545px;}
+		.c601{right:230px;top: 517px;}
+		.c603{right:490px;top: 493px;}
 		.c604{right:612px;bottom: 591px;}
 		.c605{right:860px;bottom: 591px;}
 		.c606{left:828px;bottom: 591px;}
@@ -317,16 +319,16 @@
 		.c501{left:481px; bottom:482px;}
 		.a504{right:662px; bottom:356px;}
 		.a514{right:568px; bottom:356px;}
-		.a605{right:230px;bottom: 434px;}
-		.c602{right:230px;bottom: 367px;}
-		.a810{right:393px;bottom: 286px;}
+		.a605{right:230px;bottom: 477px;}
+		.c602{right:230px;bottom: 407px;}
+		.a810{right:393px;bottom: 350px;}
 
 	/* 점검, 오류 태그 */
 		.repair_t{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.error_t{background:#ff2323; color:#fff; font-weight:bold; font-size:12px; padding:1px 4px; text-align:center; }
 		.a602{right:740px; top: 166px;}
 		.a603{right:393px; top: 375px; cursor:pointer;}
-		.a604{right:340px; bottom: 434px;}
+		.a604{right:340px; bottom: 477px;}
 
 
 		/* 에러 아이콘 */
@@ -341,9 +343,9 @@
 		.bf03{left: 275px;bottom: 243px;background-position:0px 0px !important;padding-left: 15px;padding-top:3px;}
 		.bf04{left:873px;bottom: 187px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
 		.bf05{right:376px;bottom: 187px;background-position:0px 0px !important;padding-left:15px;padding-top:3px; z-index:2;}
-		.bf06{right:270px;bottom: 187px;padding-left:15px;padding-top:3px;}
-		.bf07{right:420px;bottom: 401px;padding-left:15px;padding-top:3px;}
-		.a604dc{right:440px;bottom: 449px;padding-left:15px;padding-top:3px;}
+		.bf06{right:270px;bottom: 238px;padding-left:15px;padding-top:3px;}
+		.bf07{right:420px;bottom: 445px;padding-left:15px;padding-top:3px;}
+		.a604dc{right:440px;bottom: 488px;padding-left:15px;padding-top:3px;}
 		.c507dc{right:710px;top: 342px;background-position:15px 17px !important;}
 		.c413dc{right: 909px;top: 374px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
 		.c414dc{left: 772px;top: 330px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
@@ -497,18 +499,18 @@
 		.l_yard_area .t_yard.on:before{color:#fff;}
 		.l_yard_area .s_yard:before{content:'S';}
 
-		.l_yard_area .re_mometer{left:20px; top:3px; position:absolute; cursor:pointer;}
+		.l_yard_area .re_mometer{right:-50px; top:-3px; position:absolute; cursor:pointer;}
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		.l_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
 		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
 
 
 	/* 우측 야드 */
-		.r_yard_area{position:absolute; right:112px; bottom:327px; z-index:1;}
+		.r_yard_area{position:absolute; right:112px; top:474px; z-index:1;}
 		.r_yard_area p{width:240px; height:35px; display:block; text-align:right; background:#f6f6f6; position:static; border-radius:8px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); position:relative;}
 		.r_yard_area p:before{position:absolute; width:20px; height:20px; right:20px; top:10px; font-size:16px; font-weight:bold;}
-		.r_yard_area .y1_yard{margin-top:30px;}
-		.r_yard_area .y_yard{margin-top:33px;}
+		.r_yard_area .y1_yard{margin-top:35px;}
+		.r_yard_area .y_yard{margin-top:35px;}
 		.r_yard_area .x_yard{margin-top:32px;}
 		.r_yard_area .x_yard.on{background:#8e8e8e;}
 		.r_yard_area .x1_yard{margin-top:0px;}
@@ -517,7 +519,7 @@
 		.r_yard_area .x_yard:before{content:'X';}
 		.r_yard_area .x_yard.on:before{color:#fff;}
 		.r_yard_area .x1_yard:before{content:'X1';}
-		.r_yard_area .re_mometer{left:20px; top:3px; position:absolute; cursor:pointer;}
+		.r_yard_area .re_mometer{right:-50px; top:-3px; position:absolute; cursor:pointer;}
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		.r_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
 		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}

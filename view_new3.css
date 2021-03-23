@@ -29,7 +29,7 @@
 		.out_list{width:420px; height:152px; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); position:relative;}
 		.out_list:after{display:block; content:''; clear:both;}
 		.out_list > div{position:absolute; width:209px;height: 152px;border-right:1px solid #e9e9e9; cursor:pointer;}
-		.out_list .out2{border-right:none; right:0;}
+		.out_list .out1{border-right:none; right:0;}
 		.out_list .ship_title h4 .ship_name{padding-left:16px; width:83px;}
 		.out2 .ship_info p b{display:inline-block; width:55px;}
 
@@ -122,7 +122,7 @@
 		.example_area .ico_area .rp_ico:before{background:url('img/repair_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 		.example_area .ico_area .err_ico:before{background:url('img/error_ico.png')no-repeat; background-size:20px; left:4px; top:-2px;}
 
-		.hopper_area .hopper1{right: 15px;bottom: 444px;background:url('img/hopper_off.png')no-repeat left center;font-size:14px;font-weight:bold;text-align:center;width:22px;height:25px;text-align:center;padding-top:5px;padding-right:2px;}
+		.hopper_area .hopper1{right: 15px;bottom: 444px;background:url('img/hopper_off.png')no-repeat left center;font-size:14px;font-weight:bold;text-align:center;width:22px;height:25px;text-align:center;padding-top:5px;padding-right:2px; cursor:pointer;}
 
 		.hopper_area .hopper1 .tag_img{left:-5px; top:30px; position:absolute;background:none;z-index:4;cursor:pointer;width:33px;text-align:center; display:none;}
 		.hopper_area .hopper1.on{background:url('img/hopper_on.png')no-repeat left center;}
@@ -1065,7 +1065,7 @@
 		/* repair Line */
 		.repair_line p{position:absolute; background:none; border-radius:25px;}
 		.repair_line p span{position:absolute; background:none; border-radius:25px;}
-		.repair_line p span.tag_img{position:absolute;background:none;z-index:4;cursor:pointer;width:65px;text-align:center; display:none;}
+		.repair_line p span.tag_img{position:absolute;background:none;z-index:4;cursor:pointer;width:65px;text-align:center;}
 		.repair_line p .tag_img img{display:inline-block; margin:0 2px;}
 		.repair_line p .tag_img img:first-child{margin-left:0;}
 		.repair_line p .tag_img img:last-child{margin-right:0;}
@@ -1422,10 +1422,15 @@
 		*/
 
 		/* Ship 영역 */
+		/*
 		.csu_ship{left: 115px;top: 264px;cursor:pointer;z-index:3;}
 		.sl1_ship{left: 360px;top: 264px;cursor:pointer;z-index:3;}
 		.sl2_ship{left: 555px;top: 264px;cursor:pointer;z-index:3;}
+		*/
 
+		.csu_ship{left: 115px;top: 264px;cursor:pointer;z-index:3;}
+		.sl2_ship{left: 360px;top: 264px;cursor:pointer;z-index:3;}
+		.sl1_ship{left: 555px;top: 264px;cursor:pointer;z-index:3;}
 		/* 집진기 */
 		.collector_area > div{position:absolute;}
 		/*
@@ -1585,32 +1590,32 @@
 		.ico_area .repair_ico{width:25px;height:25px;right: 690px;top: 75px;background:url('img/repair_ico.png')no-repeat;text-indent:-9999px;cursor:pointer;}
 
 		/* 집진기 태그 */
-		.collector_tag p{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_off.gif') no-repeat; height: 50px;}
-		.collector_tag p.on{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}
-		.collector_tag p .tag_img{position: absolute;background: none;z-index: 4;cursor: pointer;width: 65px;text-align: center; display:none;}
-		.bf01{left: 30px;top: 297px;background-position:6px 18px !important;cursor:pointer;}
+		.collector_tag > div{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_off.gif') no-repeat; height: 50px; cursor:pointer; position:absolute;}
+		.collector_tag > div.on{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}
+		.collector_tag .tag_img{position: absolute;background: none;z-index: 4;cursor: pointer;width: 65px;text-align: center; display:none;}
+		.bf01{left: 30px;top: 297px;background-position:6px 18px !important; width:25px;}
 		.bf01 .tag_img{left: -41px;top:-25px;text-align: right !important;}
-		.bf02{left: 25px;bottom: 280px;background-position:6px 18px !important;}
+		.bf02{left: 25px;bottom: 280px;background-position:6px 18px !important; width:25px;}
 		.bf02 .tag_img{left: -40px;text-align: right !important;top:-25px;}
-		.bf03{left: 220px;bottom: 210px;background-position:0px 0px !important;padding-left: 15px;padding-top:3px;}
+		.bf03{left: 220px;bottom: 236px;background-position:0px 0px !important;padding-left: 15px;padding-top:3px;width:25px;height:25px !important;}
 		.bf03 .tag_img{left: -6px;top:-30px;}
-		.bf04{right: 312px;bottom: 160px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
+		.bf04{right: 312px;bottom: 185px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;width: 25px;height: 25px !important;}
 		.bf04 .tag_img{left: -70px;top: -1px; text-align:right !important;}
-		.bf05{right: 355px;bottom: 235px;background-position:0px 0px !important;padding-left:15px;padding-top:3px;z-index:2;}
+		.bf05{right: 355px;bottom: 263px;background-position:0px 0px !important;width: 25px;height: 25px !important;padding-left:15px;padding-top:3px;z-index:2;}
 		.bf05 .tag_img{left: -68px;top: -2px; text-align:right !important;}
-		.bf06{right: 209px;bottom: 218px;padding-left:15px;padding-top:3px;}
+		.bf06{right: 209px;width: 25px;height: 25px !important;bottom: 244px;padding-left:15px;padding-top:3px;}
 		.bf06 .tag_img{left: -5px;top: 25px; text-align:left !important;}
-		.bf07{right: 355px;bottom: 416px;padding-left:15px;padding-top:3px;}
+		.bf07{right: 355px;bottom: 443px;padding-left:15px;padding-top:3px;width: 25px;height: 25px !important;}
 		.bf07 .tag_img{left: -3px;top: 26px;text-align:left !important;}
-		.a604dc{right: 378px;bottom: 460px;padding-left:15px;padding-top:3px;}
+		.a604dc{right: 395px;bottom: 492px;padding-left:15px;padding-top:3px;width: 25px;height: 25px !important;}
 		.a604dc .tag_img{left: -68px;top: -2px; text-align:right !important;}
-		.c507dc{right: 648px;top: 300px;background-position:15px 17px !important;}
+		.c507dc{right: 644px;top: 300px;background-position:15px 17px !important;width: 50px;}
 		.c507dc .tag_img{left: -5px;top: -26px;}
-		.c413dc{right: 861px;top: 327px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
+		.c413dc{right: 857px;top: 327px;background-position:0px 0px !important;width: 50px;height: 25px !important;padding-left:18px;padding-top:3px;}
 		.c413dc .tag_img{left: -6px;top: 26px;text-align:left !important;}
-		.c414dc{left: 720px;top: 292px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
+		.c414dc{left: 707px;top: 292px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;width: 50px;height: 25px !important;}
 		.c414dc .tag_img{left: -6px;top: -28px;text-align:left !important;}
-		.c607dc{left: 715px;top: 360px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;}
+		.c607dc{left: 715px;top: 360px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;width: 50px;height: 25px !important;}
 		.c607dc .tag_img{left: -1px;top: -27px;text-align:left !important;}
 
 		/* 펌프 태그 */
@@ -1690,7 +1695,9 @@
 		.repair_popup .repair_table table tr td select{width:540px; height:30px; display:block;}
 		.repair_table table tr td.data_name{font-weight:bold; color:#005386; width:140px; vertical-align:top; padding-top:7px; vertical-align:middle;}
 		.repair_table table tr td.data_form{font-weight:bold; color:#005386; width:540px;}
-		.repair_table table tr td .form{width:255px; height:30px; border:1px solid #d9d9d9;}
+		/* .repair_table table tr td .form{width:255px; height:30px; border:1px solid #d9d9d9;} */
+		.repair_table table tr td .form{width:155px; height:30px; border:1px solid #d9d9d9;}
+		.repair_table table tr td .formTime {width:100px; height:30px; border:1px solid #d9d9d9;}
 		.repair_table table tr td .con_form{width:540px; height:100px;}
 		.repair_list:after{display:block; content:''; clear:both;}
 

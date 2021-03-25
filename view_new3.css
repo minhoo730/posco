@@ -83,7 +83,7 @@
 		.bottom_list .off{display:block;}
 		*/
 		/* 범례 */
-		.example_area{position:absolute; right:45px; top:85px; width:240px; background:#fff; border:1px solid #005386; border-radius:5px; z-index:2;}
+		.example_area{position:absolute; right:45px; top:45px; width:240px; background:#fff; border:1px solid #005386; border-radius:5px; z-index:2;}
 		.example_area .line_area{padding: 15px 15px 0 15px;}
 		.example_area .line_area:after{display:block; content:''; clear:both;}
 		.example_area .line_area p{float:left;width: 60px;font-size:14px;font-weight:bold;padding-left:35px;padding-bottom:15px;position:relative;}

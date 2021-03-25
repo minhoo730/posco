@@ -100,6 +100,8 @@
 		.example_area .ico_area:after{display:block; content:''; clear:both;}
 		.example_area .ico_area p{font-size:14px; font-weight:bold; padding:0 0 15px 35px; position:relative;}
 		.example_area .ico_area p:before{position:absolute; content:''; width:25px; height:30px; top:7px; left:0;}
+		.example_area .ico_area p.rp_ico{display:inline-block;}
+		.example_area .ico_area p.err_ico{display:inline-block; margin-left:20px;}
 		.example_area .ico_area p span{font-size:12px; font-weight:normal; position:relative;}
 		.example_area .ico_area p span:before{position:absolute; content:''; width:10px; height:10px; border-radius:50px; left:6px; top:4px;}
 		.example_area .ico_area .collector_ico span.on{margin-left:8px;}

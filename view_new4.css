@@ -1419,13 +1419,11 @@
 		.sl_area .sl2 .tag_img{right: -8px;top:15px;}
 		.sl_area .sl1 .tag_img{right: -7px;top:15px;}
 
-		.sl_area .sl_on{background:url('../img/sl_on.gif')no-repeat;right: 70px;top:24px;z-index:1; text-indent:-9999px; width:14px; height:50px; display:none;}
-		.sl_area .sl_off{background:url('../img/sl_off.gif')no-repeat; right:70px; top:24px; z-index:1;     text-indent: -9999px; width:14px; height:50px;}
+		.sl_area .sl_on{background:url('img/sl_on.gif')no-repeat;right: 70px;top:24px;z-index:1; text-indent:-9999px; width:14px; height:50px; display:none;}
+		.sl_area .sl_off{background:url('img/sl_off.gif')no-repeat; right:70px; top:24px; z-index:1; text-indent: -9999px; width:14px; height:50px;}
 
-		/*
-.sl2 .sl_on{background:url('img/sl_on.gif')no-repeat; right:70px; top:24px; z-index:1;text-indent:-9999px; width:13px; height:50px;}
+		.sl2 .sl_on{background:url('img/sl_on.gif')no-repeat; right:70px; top:24px; z-index:1;text-indent:-9999px; width:13px; height:50px; display:block;}
 		.sl2 .sl_off{background:url('img/sl_off.gif')no-repeat; right: 70px; top:24px; z-index:1; text-indent:-9999px; width:14px; height:50px;}
-		*/
 
 		/* Ship 영역 */
 		/*

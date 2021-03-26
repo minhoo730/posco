@@ -8,7 +8,7 @@
 		.view_link a.on{color:#fff; background:#005386;}
 
 
-		/* 선석정보_상단*/
+		/* ì„ ì„ì •ë³´_ìƒë‹¨*/
 		.top_list{position:absolute;left:58px;top: 45px;z-index:2;}
 		.top_list:after{display:block; content:''; clear:both;}
 		.shipping_in{padding:6px; background:#e9e9e9; float:left;}
@@ -44,7 +44,7 @@
 		.right_btn button{background: #d9d9d9; float: left; border: none; padding: 3px 18px;
     border-radius: 3px; font-weight:bold; cursor:pointer; margin-right:15px;}
 		.right_btn button:last-child{margin-right:0;}
-		/* 선석정보 하단 */
+		/* ì„ ì„ì •ë³´ í•˜ë‹¨ */
 		.bottom_list{width:1200px; position:absolute; bottom:0px; left:58px; z-index:3;}
 		.bottom_list > div{position:absolute; bottom:30px; left:0; background:#fff; border:5px solid #e9e9e9; z-index:666; height:130px; width:180px; cursor:pointer;}
 		.bottom_list > div:nth-child(1){left:0;}
@@ -82,7 +82,7 @@
 		.bottom_list .on{display:none;}
 		.bottom_list .off{display:block;}
 		*/
-		/* 범례 */
+		/* ë²”ë¡€ */
 		.example_area{position:absolute;right:45px;top: 45px;width:240px;background:#fff;border:1px solid #005386;border-radius:5px;z-index:2;}
 		.example_area .line_area{padding: 15px 15px 0 15px;}
 		.example_area .line_area:after{display:block; content:''; clear:both;}
@@ -130,8 +130,8 @@
 		.hopper_area .hopper1.on{background:url('img/hopper_on.png')no-repeat left center;}
 
 
-		/* 연료 통로 */
-		/* 니켈 라인 동작 영역 */
+		/* ì—°ë£Œ í†µë¡œ */
+		/* ë‹ˆì¼ˆ ë¼ì¸ ë™ìž‘ ì˜ì—­ */
 		.nickel_bar_left{height:5px;background:url('img/nickel_bar_left.gif')repeat-x;}
 		.nickel_bar_bot{width:5px;background:url('img/nickel_bar_bottom.gif')repeat-y;}
 		.nickel_bar_right{height:5px;background:url('img/nickel_bar_right.gif')repeat-x;}
@@ -225,7 +225,7 @@
 		.nc608 .horizontal_nc608_1{left: 0px; top: -55px; width:5px; height: 60px;}
 		.nc608 .vertical_nc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
-		/* 니켈 정지상태 */
+		/* ë‹ˆì¼ˆ ì •ì§€ìƒíƒœ */
 		.nickel_area_stop p{position:absolute; background:#ae4e1a; border-radius:25px; z-index:1;}
 		.nickel_area_stop p span{position:absolute; background:#ae4e1a; border-radius:25px;}
 		 .nsa801{left: 58px;top: 318px;width:243px;height:5px;}
@@ -308,7 +308,7 @@
 		.nsc608 .vertical_nsc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
 
-		/* 석탄 라인 */
+		/* ì„íƒ„ ë¼ì¸ */
 		.coal_bar_left{height:5px;background:url('img/coal_bar_left.gif')repeat-x;}
 		.coal_bar_bot{width:5px;background:url('img/coal_bar_bottom.gif')repeat-y;}
 		.coal_bar_right{height:5px;background:url('img/coal_bar_right.gif')repeat-x;}
@@ -405,7 +405,7 @@
 		.cc608 .horizontal_cc608_1{left: 0px; top: -55px; width:5px; height: 60px;}
 		.cc608 .vertical_cc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
-		/* 석탄 정지상태 */
+		/* ì„íƒ„ ì •ì§€ìƒíƒœ */
 		.coal_area_stop p{position:absolute; background:#686868; border-radius:25px; z-index:1;}
 		.coal_area_stop p span{position:absolute; background:#686868; border-radius:25px;}
 
@@ -489,7 +489,7 @@
 		.csc608 .vertical_csc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
 
-	/* 슬라그 라인 동작 영역 */
+	/* ìŠ¬ë¼ê·¸ ë¼ì¸ ë™ìž‘ ì˜ì—­ */
 		.slog_bar_right{height:5px;background:url('img/slog_bar_right.gif')repeat-x;}
 		.slog_bar_top{width:5px;background:url('img/slog_bar_top.gif')repeat-y;}
 		.slog_bar_left{height:5px;background:url('img/slog_bar_left.gif')repeat-x;}
@@ -584,7 +584,7 @@
 		.sc608 .vertical_sc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
 
-		/* 슬라그 정지 상태 */
+		/* ìŠ¬ë¼ê·¸ ì •ì§€ ìƒíƒœ */
 		.slog_area_stop p{position:absolute; background:#ffe65a; border-radius:25px; z-index:1;}
 		.slog_area_stop p span{position:absolute; background:#ffe65a; border-radius:25px;}
 
@@ -670,7 +670,7 @@
 		.vertical_ssc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
 
-		/* 기타 라인 */
+		/* ê¸°íƒ€ ë¼ì¸ */
 		.besides_bar_left{height:5px;background:url('img/besides_bar_left.gif')repeat-x;}
 		.besides_bar_bot{width:5px;background:url('img/besides_bar_bottom.gif')repeat-y;}
 		.besides_bar_right{height:5px;background:url('img/besides_bar_right.gif')repeat-x;}
@@ -760,7 +760,7 @@
 		.vertical_bc608_2{left:0px;top: 0px;width: 365px;height: 5px;}
 
 
-		/* 기타라인 정지 상태 */
+		/* ê¸°íƒ€ë¼ì¸ ì •ì§€ ìƒíƒœ */
 		.besides_area_stop p{position:absolute; background:#0058c4; border-radius:25px; z-index:1;}
 		.besides_area_stop p span{position:absolute; background:#0058c4; border-radius:25px;}
 
@@ -849,7 +849,7 @@
 		.bsc608 .vertical_bsc608_2{right:0px; top: 0px; width: 175px; height: 5px;}
 
 
-		/* 원료없는 벨트 동작 */
+		/* ì›ë£Œì—†ëŠ” ë²¨íŠ¸ ë™ìž‘ */
 		.belt_bar_left{height:3px;background:url('img/belt_bar_left.gif')repeat-x;}
 		.belt_bar_bot{width:3px;background:url('img/belt_bar_bottom.gif')repeat-y;}
 		.belt_bar_right{height:3px;background:url('img/belt_bar_right.gif')repeat-x;}
@@ -959,7 +959,7 @@
 
 
 		/*Error Line */
-		/* 에러 아이콘 */
+		/* ì—ëŸ¬ ì•„ì´ì½˜ */
 
 		.error_line p{position:absolute; background:#ff2323; border-radius:25px; z-index:1;}
 		.error_line p span{position:absolute; background:#ff2323; border-radius:25px; z-index:3;}
@@ -1174,7 +1174,7 @@
 
 
 
-		/* 리크레이머 영역 */
+		/* ë¦¬í¬ë ˆì´ë¨¸ ì˜ì—­ */
 		.reclaimer_area > div{position:absolute;}
 		.left_rc{width: 500px; height: 304px; left: 530px; bottom: 234px;}
 		.left_rc > div{position:absolute; cursor:pointer;}
@@ -1306,7 +1306,7 @@
 		.rc612.top.right{right:14px;}
 
 
-		/* 스태커 영역 */
+		/* ìŠ¤íƒœì»¤ ì˜ì—­ */
 		.stack_area > div{position:absolute; }
 		.left_st{width: 500px; height: 304px; left: 530px; bottom: 234px;}
 		.left_st > div{position:absolute; cursor:pointer;}
@@ -1350,11 +1350,11 @@
 		.st503{bottom: 24px;width:88px;height:57px;background:url('img/stacker_off_right.gif')no-repeat;z-index:3;}
 		.st503 .st_name{left: 0px;top: 47px;background: #fff;border:1px solid #F6CB32;padding: 0 5px;color: #333;}
 		.st503.left{left: 65px;bottom: 23px;}
-		.st503.center{left: 210px;bottom: 22px;}
-		.st503.right{right: 70px;}
+		.st503.center{left: 210px;bottom: 24px;}
+		.st503.right{right: 151px;}
 		.st503 .tag_img{left: 86px;top: 3px;}
 
-		.st503.top{width:88px;height:81px;bottom: 6px;background:url('img/stacker_top_new.gif')no-repeat;z-index:3;}
+		.st503.top{width:88px;height:81px;bottom: 8px;background:url('img/stacker_top_new.gif')no-repeat;z-index:3;}
 		.st503.top .st_name{top:55px;}
 		.st503.top.left{left: 65px;bottom: 7px;}
 		.st503.top.center{left: 210px;}
@@ -1386,7 +1386,7 @@
 
 
 
-		/* CSU 영역 */
+		/* CSU ì˜ì—­ */
 		.csu_area .csu_img{z-index:2;}
 		.csu_area > div{position:absolute;/* cursor:pointer; */}
 		.csu_area .tag_img{position: absolute;background: none;z-index: 4;cursor: pointer;width: 65px;text-align: left;display:none;}
@@ -1407,14 +1407,14 @@
 		.csu_area .csu_2 .csu_off{left: 70px;top: 15px;width:20px;height:50px;background:url('img/csu_off.gif')no-repeat;text-indent:-9999px; z-index:1; display:;}
 
 
-		/* SL 영역 */
+		/* SL ì˜ì—­ */
 		.sl_area > div{position:absolute; /* cursor:pointer; */}
-		.sl_area > div .sl_name{position:absolute; left:13px; bottom:9px; font-weight:bold; font-size:12px; z-index:3; color:#fff; cursor:pointer;}
+		.sl_area > div .sl_name{position:absolute;left: 7px;bottom: 21px;font-weight:bold;font-size:12px;z-index:3;color:#fff;cursor:pointer;}
 		.sl_area .tag_img{position: absolute;background: none;z-index: 4;cursor: pointer;width: 65px;text-align: left; display:none;}
 
 		.sl_area .sl_img{z-index:2;}
-		.sl_area .sl2{left: 323px;top: 212px;width:166px;height:114px;}
-		.sl_area .sl1{left: 515px;top: 212px;width:166px;height:114px;}
+		.sl_area .sl2{left: 331px;top: 225px;width:166px;height:114px;}
+		.sl_area .sl1{left: 525px;top: 224px;width:166px;height:114px;}
 
 		.sl_area .sl2 .tag_img{right: -8px;top:15px;}
 		.sl_area .sl1 .tag_img{right: -7px;top:15px;}
@@ -1427,7 +1427,7 @@
 		.sl2 .sl_off{background:url('img/sl_off.gif')no-repeat; right: 70px; top:24px; z-index:1; text-indent:-9999px; width:14px; height:50px;}
 		*/
 
-		/* Ship 영역 */
+		/* Ship ì˜ì—­ */
 		/*
 		.csu_ship{left: 115px;top: 264px;cursor:pointer;z-index:3;}
 		.sl1_ship{left: 360px;top: 264px;cursor:pointer;z-index:3;}
@@ -1437,7 +1437,7 @@
 		.csu_ship{left: 115px;top: 264px;cursor:pointer;z-index:3;}
 		.sl2_ship{left: 364px;top: 264px;cursor:pointer;z-index:3;}
 		.sl1_ship{left: 557px;top: 264px;cursor:pointer;z-index:3;}
-		/* 집진기 */
+		/* ì§‘ì§„ê¸° */
 		.collector_area > div{position:absolute;}
 		/*
 		.clt1_on{left:754px; top:416px; z-index:2;}
@@ -1446,7 +1446,7 @@
 		.clt4_on{right:745px; top:362px; z-index:2;}
 		*/
 
-		/* 터널 영역 */
+		/* í„°ë„ ì˜ì—­ */
 		.tunnel_area > div p{z-index:3;}
 		.ton_802{left: 57px;top: 297px;}
 		.ton_804{left: 57px;bottom: 285px;}
@@ -1488,7 +1488,7 @@
 
 
 
-		/* 터널 미가동 */
+		/* í„°ë„ ë¯¸ê°€ë™ */
 
 		.toff_802{left: 57px;top: 317px;}
 		.toff_804{left: 57px;bottom: 285px;}
@@ -1532,9 +1532,9 @@
 		.toff_a605{right: 334px;bottom: 446px;}
 		.toff_604{right: 190px;bottom: 453px;}
 
-		/* 태그영역 */
+		/* íƒœê·¸ì˜ì—­ */
 
-		/* 태그 포지션 */
+		/* íƒœê·¸ í¬ì§€ì…˜ */
 		.a801{left: 175px;top: 310px;}
 		.a802{left: 16px;top: 378px;width:78px;}
 		.a803{left: 16px;top: 442px;width:78px;}
@@ -1580,24 +1580,24 @@
 		.a603{right: 328px;top: 315px;}
 		.a604{right: 210px;bottom: 449px;}
 
-		/* 니켈 태그 */
+		/* ë‹ˆì¼ˆ íƒœê·¸ */
 		.nickel_tag p{background:#ae4e1a; color:#fff; font-weight:bold; font-size:12px; padding:2px 5px; text-align:center; cursor:pointer; z-index: 4;}
-		/* 슬라그 태그 */
+		/* ìŠ¬ë¼ê·¸ íƒœê·¸ */
 		.slog_tag p{background:#ffe65a;color:#fff;font-weight:bold;font-size:12px;padding: 2px 5px;text-align:center; z-index: 4;}
-		/* 석탄 태그 */
+		/* ì„íƒ„ íƒœê·¸ */
 		.coal_tag1 p{background:#686868; color:#fff; font-weight:bold; font-size:12px; padding:2px 5px; text-align:center; z-index: 4;}
-	/* 미가동 태그 */
+	/* ë¯¸ê°€ë™ íƒœê·¸ */
 		.offline_tag p{background:#fff;color:#bbb;font-weight:bold;font-size:12px;padding: 1px 4px;text-align:center;border:1px solid #bbb; z-index:3; cursor:pointer;}
-	/* 기타 태그 */
+	/* ê¸°íƒ€ íƒœê·¸ */
 		.besides_tag p{background:#0058c4;color:#fff;font-weight:bold;font-size:12px;padding: 2px 5px;text-align:center;z-index: 4; cursor:pointer;}
-	/* 점검, 오류 태그 */
+	/* ì ê²€, ì˜¤ë¥˜ íƒœê·¸ */
 		.repair_tag p{background:#ff8a00; color:#fff; font-weight:bold; font-size:12px; padding:2px 5px; text-align:center; cursor:pointer; z-index:4;}
 		.error_tag p{background:#ff2323;color:#fff;font-weight:bold;font-size:12px;padding: 2px 5px;text-align:center; cursor:pointer; z-index: 4; }
 
 
 		.ico_area .repair_ico{width:25px;height:25px;right: 690px;top: 75px;background:url('img/repair_ico.png')no-repeat;text-indent:-9999px;cursor:pointer;}
 
-		/* 집진기 태그 */
+		/* ì§‘ì§„ê¸° íƒœê·¸ */
 		.collector_tag > div{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_off.gif') no-repeat; height: 50px; cursor:pointer; position:absolute;}
 		.collector_tag > div.on{font-size:12px; font-weight:bold; color:#333; background: url('img/collector_on.gif') no-repeat; height: 50px;}
 		.collector_tag .tag_img{position: absolute;background: none;z-index: 4;display: none;cursor: pointer;width: 65px;text-align: center;}
@@ -1626,7 +1626,7 @@
 		.c607dc{left: 715px;top: 360px;background-position:0px 0px !important;padding-left:18px;padding-top:3px;width: 50px;height: 25px !important;}
 		.c607dc .tag_img{left: -1px;top: -27px;text-align:left !important;}
 
-		/* 펌프 태그 */
+		/* íŽŒí”„ íƒœê·¸ */
 		.pump_tag{position:absolute;bottom:30px;right: 305px;width:155px;box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);background:#fff;padding:10px;display:block;}
 		.pump_tag > div p{font-size:12px; font-weight:bold; color:#333; position:static; display:inline-block; width:74px; text-align:center; cursor:pointer;}
 		.pump_tag p .tag_img{position: absolute; background: none; z-index: 4; cursor: pointer; width: 65px; text-align: center; display:none;}
@@ -1644,7 +1644,7 @@
 		.pump3.off .tag_img{left: 13px;bottom: -20px;}
 		.pump4.off .tag_img{right: 13px;bottom: -20px;}
 
-		/* 메시지 버튼 */
+		/* ë©”ì‹œì§€ ë²„íŠ¼ */
 		.top_button{position:absolute;right:17px;top: 36px; z-index:3;}
 		.top_button button{float:left; color:#333; font-size:12px; font-weight:bold; background:#d9d9d9; padding:3px 18px; border-radius:3px; cursor:pointer; border:none;}
 		.notice_button{margin-right:15px;}
@@ -1657,7 +1657,7 @@
 		.notice_area .notice h2 .data{display:inline-block; margin:0 20px; margin-right:10px; font-weight:bold;}
 
 
-	/* 팝업 공통 */
+	/* íŒì—… ê³µí†µ */
 		/*.popup_bg{width:100%; height:100%; background:rgba(51,51,51,0.3);top:0; left:0; position:fixed; z-index:4; display:none;}*/
 		.popup_bg{width: 100%; height: 100%; background: rgba(51,51,51,0.3); top: 0; left: 0; position: fixed; z-index: 6;}
 		.popup_area{position:absolute; top:50%; left:50%; margin-top:-230px; margin-left:-200px; width:380px; background:#fff; border:1px solid #333; z-index:444; border-radius:5px;}
@@ -1698,7 +1698,7 @@
 		.notice_write table tr td.title_con{width:840px;}
 		.popup_btn{float:right; background:#005386; color:#fff; border:none; width:80px; height:30px; font-size:14px; font-weight:bold; cursor:pointer;}
 
-		/* 정비 팝업 */
+		/* ì •ë¹„ íŒì—… */
 		.repair_popup > div table{width:100%;}
 		.repair_popup .repair_table table tr td select{width:540px; height:30px; display:block;}
 		.repair_table table tr td.data_name{font-weight:bold; color:#005386; width:140px; vertical-align:top; padding-top:7px; vertical-align:middle;}
@@ -1728,13 +1728,13 @@
 
 
 
-		/* 팝업 공통 */
+		/* íŒì—… ê³µí†µ */
 
 
 		.sl_popup .table_area > div:first-child{padding-right:20px;}
 		.sl_popup .table_area > div:last-child{padding-left:20px;}
 
-		/* 기타 팝업 */
+		/* ê¸°íƒ€ íŒì—… */
 		.belt807_popup .popup_area{margin-top:-225px;}
 		.belt807_popup .table_area .belt_info p{font-size:14px; font-weight:bold; text-align:right; margin-top:10px;}
 		.belt807_popup table tr td.bc_name{color:#333; font-size:16px; font-weight:bold;}
@@ -1748,7 +1748,7 @@
 		.rp_popup .popup_area{margin-top:-135px;}
 		.err_popup .popup_area{margin-top:-135px;}
 
-		/* 풍향 미세먼지 정보 */
+		/* í’í–¥ ë¯¸ì„¸ë¨¼ì§€ ì •ë³´ */
 		.wind_area{position:absolute;bottom:30px;right: 47px;}
 		.wind_area h3{font-size:14px; color:#005386; letter-spacing:-0.7px; margin-bottom:10px; text-align:center;}
 		.wind_info{width:242px; padding:25px 0; background:#fff; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
@@ -1762,7 +1762,7 @@
 		.wind_info p .w_value.green{color:#0bc300;}
 		.wind_info h3{font-size:16px; color:#333;}
 
-	/* 좌측 야드 */
+	/* ì¢Œì¸¡ ì•¼ë“œ */
 		.l_yard_area{position:absolute;left:535px;bottom: 275px;z-index:1;}
 		.l_yard_area p{width:490px; height:35px; display:block; text-align:right; background:#f6f6f6; position:static; border-radius:8px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); position:relative;}
 		.l_yard_area p:before{position:absolute; width:20px; height:20px; right:20px; top:10px; font-size:16px; font-weight:bold;}
@@ -1784,10 +1784,10 @@
 
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		/*.l_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
-		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
+		.re_mometer .celsius:before{position:absolute; content:'90â„ƒ'; font-size:12px; color:#fff; font-weight:bold;}
 		*/
 
-	/* 우측 야드 */
+	/* ìš°ì¸¡ ì•¼ë“œ */
 		.r_yard_area{position:absolute;right: 47px;top: 413px;}
 		.r_yard_area p{width:240px; height:35px; display:block; text-align:right; background:#f6f6f6; position:static; border-radius:8px; box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); position:relative;}
 		.r_yard_area p:before{position:absolute; width:20px; height:20px; right:20px; top:10px; font-size:16px; font-weight:bold;}
@@ -1805,5 +1805,5 @@
 		/* .rc511 .rc_on{position:absolute; bottom:-12px; left:-10px;} */
 		/*
 		.r_yard_area .re_mometer .celsius{position:relative; background:url('img/celsius_bg.png')no-repeat; width:35px; height:30px; display:none;}
-		.re_mometer .celsius:before{position:absolute; content:'90℃'; font-size:12px; color:#fff; font-weight:bold;}
+		.re_mometer .celsius:before{position:absolute; content:'90â„ƒ'; font-size:12px; color:#fff; font-weight:bold;}
 		*/

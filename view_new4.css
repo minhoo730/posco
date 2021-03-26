@@ -1290,7 +1290,7 @@
 
 		.rc612{bottom: 43px;width:88px;height:30px;background:url('img/reclaimer_off.gif')no-repeat;z-index:3;}
 		.rc612 .rc_name{left:35px; top:8px;}
-		.rc612.left{left:0px;}
+		.rc612.left{left: -8px;}
 		.rc612.right{right:15px;}
 		.rc612.right .tag_img{right:-67px; top:3px;}
 		.rc612 .tag_img{right: 22px;top: -26px;}
@@ -1342,7 +1342,7 @@
 
 		.st502.bot{top: 95px;width:95px;height:81px;background:url('img/stacker_left_bot_new.gif')no-repeat;z-index:3;}
 		.st502.bot .st_name{right: 8px;top: 45px;}
-		.st502.bot.left{left: 35px;}
+		.st502.bot.left{left: 43px;}
 		.st502.bot.center{left: 212px;}
 		.st502.bot.right{right: 27px;}
 

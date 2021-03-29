@@ -7,7 +7,6 @@
 		.view_link a{text-decoration:blink; color:#333; font-weight:bold; padding:5px 10px; border-radius:50px;}
 		.view_link a.on{color:#fff; background:#005386;}
 		.tag_img{display:none;}
-
 		/* 선석정보_상단*/
 		.top_list{position:absolute;left:58px;top: 45px;z-index:2;}
 		.top_list:after{display:block; content:''; clear:both;}
